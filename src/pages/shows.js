@@ -1,6 +1,5 @@
 import React from 'react'
-import Link from 'next/link'
-import Shows from '../components/Shows/index'
+import Shows from '../components/Shows'
 
 import { Row, Col} from 'react-bootstrap'
 

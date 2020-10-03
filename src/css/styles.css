@@ -1,8 +1,11 @@
-@import "tailwindcss/base";
+/* @import "tailwindcss/base"; */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@import "tailwindcss/components";
+/* @import "tailwindcss/components";
 
-@import "tailwindcss/utilities";
+@import "tailwindcss/utilities"; */
 
 
 a:hover{
@@ -13,12 +16,3 @@ body{
     contain: layout;
 }
 
-/*
-<h1> Sobre Nós </h1>
-                                    <p>
-                                        A meta da Naza é maximizar o potencial
-                                        de cada cliente e contribuir para que
-                                        o retorno do trabalho seja satisfatótio e lucrativo.
-                                    </p>
-
-*/

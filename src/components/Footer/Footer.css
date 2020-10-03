@@ -3,7 +3,7 @@
     font-size: 1rem;
     float: left;
     color: rgba(136, 136, 136, 0.507);
-    background-color:rgb(51, 41, 41) ;
+    background-color: black ;
     padding: 20px 0;
     padding-top: 10px;
     position: relative;
@@ -21,6 +21,8 @@
     padding-top: 20px;
 }
 .img-footer{
+    display: flex;
+    justify-content: center;
     margin: 0 auto;
 }
 
@@ -49,6 +51,16 @@
 .sub-footer {
     text-align: center;
     font-size: 14px;
-    color: black;
+    color: rgba(136, 136, 136, 0.507);
     display: block;
+    margin-left: 18%;
+}
+
+
+
+.links a {
+    display: flex;
+    justify-content: flex-start ;
+    color: white;
+    text-decoration: none;
 }

@@ -23,9 +23,9 @@ const App = ({ Component, pageProps}) => {
     <>
       <BrowserRouter>
         <Header/>
-        <div>          
+        {/* <div>          
           <Component {...pageProps} />
-        </div>
+        </div> */}
         <Routes />
         <Footer/>
       </BrowserRouter>

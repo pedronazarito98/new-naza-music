@@ -17,13 +17,13 @@ const Header = () => {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto p-6 ml-4">
                         <Nav.Link href="/">Página inicial</Nav.Link>
-                        <Nav.Link href="/news">Notícias</Nav.Link>
-                        <Nav.Link href="/servicos">Serviços</Nav.Link>
-                        <Nav.Link href="/shows">Shows</Nav.Link>
-                        <Nav.Link href="/sobre">Sobre</Nav.Link>
-                        <Nav.Link href="/contato">Contato</Nav.Link>
+                        <Nav.Link href="#/news">Notícias</Nav.Link>
+                        <Nav.Link href="#/servicos">Serviços</Nav.Link>
+                        <Nav.Link href="#/shows">Shows</Nav.Link>
+                        <Nav.Link href="#/sobre">Sobre</Nav.Link>
+                        <Nav.Link href="#/contato">Contato</Nav.Link>
                         <NavDropdown title="Artistas" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="/artistaSolo">Fonseec</NavDropdown.Item>
+                            <NavDropdown.Item href="#/artistaSolo">Fonseec</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.2">George</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.3">Murilo Santiago</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.4">Tadeu Franco</NavDropdown.Item>

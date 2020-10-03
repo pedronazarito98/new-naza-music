@@ -5,11 +5,11 @@ const Service = () => {
         <React.Fragment>
             <div className='sectionServices'>
                 <Container>
-                    <Row>
-                        <Col sm={6} >
-                        <img src='./01img_producao.png' />
+                    <Row >
+                        <Col sm={6} className='list-image-Left' >
+                        <img  src='./01img_producao.png' alt=""/>
                         </Col>
-                        <Col sm={6}>
+                        <Col sm={6} className="list-text-Left">
                             <h4> 01/ </h4>
                             <h4> Produção Musical </h4>
                             <p>
@@ -22,8 +22,8 @@ const Service = () => {
                             </p>
                         </Col>
                     </Row>
-                    <Row>
-                        <Col sm={6} >
+                    <Row >
+                        <Col sm={6}  className="list-text-Right">
                             <h4> 02/ </h4>
                             <h4> Assessoria de Imprensa </h4>
                             <p>
@@ -34,15 +34,15 @@ const Service = () => {
                             </p>
                         
                         </Col>
-                        <Col sm={6}>
-                        <img src='./02img_assesoria.png' />
+                        <Col sm={6} className='list-image-Right'>
+                        <img src='./02img_assesoria.png' alt="" />
                         </Col>
                     </Row>
                     <Row>
-                        <Col sm={6} >
-                        <img src='./04img_divulgacao.png' />
+                        <Col sm={6} className='list-image-Left'>
+                        <img src='./04img_divulgacao.png' alt="" />
                         </Col>
-                        <Col sm={6} >
+                        <Col sm={6} className='list-text-Left' >
                             <h4> 03/ </h4>
                             <h4> Divulgação </h4>
                             <p>
@@ -53,8 +53,8 @@ const Service = () => {
                             </p>
                         </Col>
                     </Row>
-                    <Row>
-                        <Col sm={6}>
+                    <Row >
+                        <Col sm={6} className='list-text-Left'>
                             <h4> 04/ </h4>
                             <h4> Shows </h4>
                             <p>
@@ -64,15 +64,15 @@ const Service = () => {
                             </p>
                         
                         </Col>
-                        <Col sm={6} >
-                        <img src='/05img_shows.png' />
+                        <Col sm={6} className='list-image-Left'>
+                        <img src='/05img_shows.png'  alt=""/>
                         </Col>
                     </Row>
-                    <Row>
-                        <Col sm={6} >
-                        <img src='./06img_distribuicao.png' />
+                    <Row >
+                        <Col sm={6} className='list-image-Right'>
+                        <img src='./06img_distribuicao.png' alt="" />
                         </Col>
-                        <Col sm={6} >
+                        <Col sm={6} className='list-text-Left' >
                             <h4> 05/ </h4>
                             <h4> Distribuição </h4>
                             <p>
@@ -82,8 +82,8 @@ const Service = () => {
                             </p>
                         </Col>
                     </Row>
-                    <Row>
-                        <Col sm={6} >
+                    <Row >
+                        <Col sm={6} className='list-text-Left'>
                             <h4> 06/ </h4>
                             <h4> Divulgação em Rádios </h4>
                             <p>
@@ -96,15 +96,15 @@ const Service = () => {
                             </p>
                         
                         </Col>
-                        <Col sm={6} >
-                        <img src='./07img_radio.png' />
+                        <Col sm={6} className='list-image-Left'>
+                        <img src='./07img_radio.png' alt="" />
                         </Col>
                     </Row>
-                    <Row>
-                        <Col sm={6} >
-                        <img src='./08img_marketing.png' />
+                    <Row >
+                        <Col sm={6} className='list-image-Right' >
+                        <img src='./08img_marketing.png' alt="" />
                         </Col>
-                        <Col sm={6} >
+                        <Col sm={6} className='list-text-Right' >
                             <h4> 07/ </h4>
                             <h4> Marketing Digital</h4>
                             <p>
@@ -117,8 +117,8 @@ const Service = () => {
                             </p>
                         </Col>
                     </Row>
-                    <Row>
-                        <Col sm={6} >
+                    <Row >
+                        <Col sm={6} className='list-text-Left' >
                             <h4> 08/ </h4>
                             <h4> Agenciamento e Representação </h4>
                             <p>
@@ -129,8 +129,8 @@ const Service = () => {
                             </p>
                         
                         </Col>
-                        <Col sm={6} >
-                        <img src='./09img_agenciamento.png' />
+                        <Col sm={6} className='list-image-Left'>
+                        <img src='./09img_agenciamento.png' alt="" />
                         </Col>
                     </Row>
                 </Container>

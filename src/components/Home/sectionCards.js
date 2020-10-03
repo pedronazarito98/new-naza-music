@@ -30,10 +30,9 @@ const SectionCards = () => {
                             <Card className='cards' border='light'>
                             <Card.Img variant="top" src="./muriloCard.png" />
                             <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
+                            <Card.Title>Noticias</Card.Title>
                             <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
+                                Texto teste
                             </Card.Text>
                                 <Button className='btCard' variant="outline-secondary"><a href='/news'> Veja mais</a></Button>{' '}
                             </Card.Body>
@@ -44,10 +43,9 @@ const SectionCards = () => {
                             <Card className='cards' border='light'>
                             <Card.Img variant="top" src="./muriloCard.png" />
                             <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
+                            <Card.Title>Noticias</Card.Title>
                             <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
+                            Texto teste.
                             </Card.Text>
                                 <Button className='btCard' variant="outline-secondary"><a href='/news'> Veja mais</a></Button>{' '}
                             </Card.Body>
@@ -58,10 +56,9 @@ const SectionCards = () => {
                             <Card className='cards' border='light'>
                             <Card.Img variant="top" src="./muriloCard.png" />
                             <Card.Body>
-                            <Card.Title>Card Titlee</Card.Title>
+                            <Card.Title>Noticias</Card.Title>
                             <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
+                            Texto teste
                             </Card.Text>
                                 <Button className='btCard' variant="outline-secondary"><a href='/news'> Veja mais</a></Button>{' '}
                             </Card.Body>
@@ -72,10 +69,9 @@ const SectionCards = () => {
                             <Card className='cards'  border='light'>
                             <Card.Img variant="top" src="./muriloCard.png" />
                             <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
+                            <Card.Title>Noticias</Card.Title>
                             <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
+                            Texto teste
                             </Card.Text>
                                 <Button className='btCard' variant="outline-secondary"><a href='/news'> Veja mais</a></Button>{' '}
                             </Card.Body>
