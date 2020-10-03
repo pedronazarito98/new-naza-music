@@ -1,0 +1,24 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+
+a:hover{
+    color:grey;
+}
+
+body{
+    contain: layout;
+}
+
+/*
+<h1> Sobre Nós </h1>
+                                    <p>
+                                        A meta da Naza é maximizar o potencial
+                                        de cada cliente e contribuir para que
+                                        o retorno do trabalho seja satisfatótio e lucrativo.
+                                    </p>
+
+*/

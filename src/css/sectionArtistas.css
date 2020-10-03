@@ -1,0 +1,91 @@
+.textoregular{
+    color: #4e4e4e;
+    line-height: 1.5;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    padding-bottom: 3%;
+}
+.release h4{
+    padding-top: 25px;
+    padding-bottom: 3%;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.release{
+    width: 490px;
+    float: left;
+}
+.linha{
+    background-color: red;
+    margin-bottom: 30% ;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clear{
+    clear: both !important;
+    font-size: 0px !important;
+    height: 0px !important;
+    float: none !important;
+}
+
+.h40{
+    height: 40px;
+}
+.w984{
+    width: 984px;
+    margin: auto;
+}
+.upper{
+    margin-bottom: 1.5%;
+    padding: 0;
+    height: 37px;
+    display: block;
+    font-size: 18px;
+    background-color: #EAEAEB;
+    font-weight: 300;
+    line-height: 37px;
+    color: #595959;
+    position: relative;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.icon{
+    float: right;
+    padding-left: 3%;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+.websiteLink{
+    float: right;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+
+
+
+h1 div{
+    padding-left: 20px;
+}
+
+h1 a.left{
+    padding-left: 20px;
+    display: block;
+}
+
+h1 a {
+    color: #595959;
+}
+
+h1 a:hover{
+    color: #000;
+}

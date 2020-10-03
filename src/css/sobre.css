@@ -1,0 +1,46 @@
+.sectionSobre{
+    height: 600px;
+    width: auto;
+}
+.sectionSobre p{
+    width: 650px;
+    margin: auto;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    padding-top: 30px;
+    font-family: monospace;
+}
+.sectionSobre h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 4rem;
+    font-family: monospace;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.textSobre{
+    padding-top: 25px;
+    width: 750px;
+    margin: auto;
+    
+}
+.textSobre h2{
+    font-size: 2.14286em;
+    line-height: 40px;
+    padding: 0 60px;
+    text-transform: uppercase;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.textSobre p{
+    text-align: center;
+    color: black;
+    padding: 20px 5px;
+    max-width: 810px;
+    margin: 0 auto;
+    line-height: 28px;
+    font-size: 1em;
+}

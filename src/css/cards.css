@@ -1,0 +1,64 @@
+.conteudoCards h4{
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+.conteudoCards p{
+    padding-top: 2%;
+    text-align: center;
+    font-size: 16px;
+}
+.BotaoCard{
+    color:#777;
+    
+}
+#dropdown-basic{
+    width: 175px;
+    height: 41px;
+    margin-top: 0px;
+    width: 100%;
+    float: left;
+    background-color: #5b5b58;
+    color: white;
+    border-radius: 0%;
+}
+
+
+
+.albuma{
+    float: right;
+    height: 280px;
+    width: 300px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+/* CARDS NEWS na Home pag*/
+
+.cards{
+    max-width: 250px;
+    max-height: 40%;
+    height: auto;
+    width: auto;
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-top: 10px; 
+}
+
+.Sectioncard{
+    max-width: max-content;
+    max-height: max-content;
+    height: auto;
+    
+}
+
+.btCard{
+    margin-top: 10%;
+    margin-left: 25%;
+}

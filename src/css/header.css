@@ -1,0 +1,22 @@
+.HeaderMain{
+    contain: layout;
+}
+.SubMenu {
+    padding: 20px;
+}
+.header{
+    height: 100px;
+    background-color: rgb(146, 5, 5);
+}
+.itens{
+    padding-left: 28%;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 5%;
+}
+.logo{
+    padding-left: 10px;
+}
+
+
