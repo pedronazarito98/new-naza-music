@@ -53,10 +53,7 @@ const CardMusic = () => {
                                     src='/img-fonseec1.png'
                                 />
                             </Figure>
-
                         </div>
-                    
-                
                 </Row>
             </Container>
         </React.Fragment>

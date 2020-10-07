@@ -10,37 +10,37 @@ const SectionServicos = () => {
         <div className='ListaImagens'>
             <nav className='ListaImagens-container'>
                 <div className='ListaImagens-Item'>
-                    <a href='/servicos'>
-                        <img src='som.p.png' alt='Distribuição' />
+                    <a href='#/servicos'>
+                        <img src='som.p.png' alt='Produção' />
                         <h2>
-                            <a href='/servicos'>Distribuição</a>
+                            <a href='/servicos'>Produção</a>
                         </h2>
                         <p>Get played, get paid - worldwide.</p>
                     </a>
                 </div>
                 <div className='ListaImagens-Item'>
                     <a href='/servicos'>
-                        <img src='raio.p.png' alt='Distribuição' />
+                        <img src='raio.p.png' alt='' />
                         <h2>
-                            <a href='/servicos'>Marketing</a>
+                            <a href='/servicos'>Divulgação</a>
                         </h2>
                         <p>Get played, get paid - worldwide. </p>
                     </a>
                 </div>
                 <div className='ListaImagens-Item'>
                     <a href='/servicos'>
-                        <img src='mic.p.png' alt='Distribuição' />
+                        <img src='mic.p.png' alt='' />
                         <h2>
-                            <a href='/servicos'>Produção Musical</a>
+                            <a href='/servicos'>Shows</a>
                         </h2>
                         <p>Get played, get paid - worldwide. </p>
                     </a>
                 </div>
                 <div className='ListaImagens-Item'>
                     <a href='/servicos'>
-                        <img src='som.p.png' alt='Distribuição' />
+                        <img src='som.p.png' alt='' />
                         <h2>
-                            <a href='/servicos'>Gestão</a>
+                            <a href='/servicos'>Assessoria de Imprensa</a>
                         </h2>
                         <p>Get played, get paid - worldwide. </p>
                     </a>

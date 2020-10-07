@@ -1,5 +1,5 @@
 import React from 'react'
-import { Carousel, Container, Row, Card } from 'react-bootstrap'
+import { Container, Row, Card } from 'react-bootstrap'
 
 const SobreNos = () => {
     return (

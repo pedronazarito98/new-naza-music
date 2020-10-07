@@ -1,6 +1,5 @@
 import React from 'react'
 import CardMusic from '../Artistas/cardsMusic'
-import Container from 'react-bootstrap/Container'
 
 const SectionArtistas = () => {
     return(
@@ -9,11 +8,10 @@ const SectionArtistas = () => {
                 <div className='h40'></div>
                     <h1 className='upper'>
                         <div className='left'> Fonseec </div>
-                            <a className='icon' href='#'> <img src='./instagram-icon.png' /> </a>
-                            <a  className='icon' href='#'> <img src='./spotify_icon.png' /> </a>
-                            <a className='icon'  href='#'> <img src='./FB_icon.png' />
-                            </a>
-                            <a  className='icon' href='#'> <img src='./youtube_icon.png' /> </a>
+                            <a className='icon' href='#/'> <img src='./instagram-icon.png' alt='' /> </a>
+                            <a  className='icon' href='#/'> <img src='./spotify_icon.png' alt='' /> </a>
+                            <a className='icon'  href='#/news'> <img src='./FB_icon.png' alt='' /> </a>
+                            <a  className='icon' href='#/'> <img src='./youtube_icon.png' alt='' /> </a>
                         <div className='clear'></div>
                     </h1>
                     <div>

@@ -5,7 +5,7 @@ const SectionHome = () =>{
         <React.Fragment>
         <section className='home'>
             <header className='section-indent text-center'>
-                <h1 className='FirstTitle'>Naza: Música em movimento</h1>
+                <h1 className='FirstTitle'>Naza Música em movimento</h1>
                 <hr className='linhaTexto'/>
                 <p className=' TextoCentral'>
                 A META DA NAZA MUSIC É MAXIMIZAR O POTENCIAL DE CADA CLIENTE 
