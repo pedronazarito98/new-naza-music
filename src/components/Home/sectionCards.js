@@ -11,7 +11,7 @@ const SectionCards = () => {
     return(
         <React.Fragment>
             <Container fluid='true'>
-                <Row >
+                <Row  className='cards-home'>
                     <CardDeck>
                         <Col sm>
                             <Card className='cards'  border='light'>

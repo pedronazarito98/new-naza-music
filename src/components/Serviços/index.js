@@ -5,6 +5,7 @@ const Service = () => {
         <React.Fragment>
             <div className='sectionServices'>
                 <Container>
+                    
                     <Row id='producao' >
                         <Col sm={6} className='list-image-Left' >
                         <img  src='./01img_producao.png' alt=""/>
@@ -68,6 +69,55 @@ const Service = () => {
                         </Col>
                         <Col sm={6} className='list-image-Right'>
                         <img src='./02img_assesoria.png' alt="" />
+                        </Col>
+                    </Row>
+                    <Row id='distribuicao'>
+                        <Col sm={6} className='list-image-Left'>
+                        <img src='./05img_shows.png' alt="" />
+                        </Col>
+                        <Col sm={6} className='list-text-Left' >
+                            <h4> 05/ </h4>
+                            <h4> Distribuição </h4>
+                            <article>
+                            A Naza atua com distribuição de música e produtos audiovisuais  
+                            nos formatos físico e digital. Através deste serviço, seu disco 
+                            e seu DVD chegam às principais lojas especializadas do país e sua 
+                            música é disponibilizada em plataformas digitais que alcançam diversos países.
+                            </article>
+                        </Col>
+                    </Row>
+                    <Row id='marketing' >
+                        <Col sm={6}  className="list-text-Right">
+                            <h4> 06/ </h4>
+                            <h4> Marketing Digital </h4>
+                            <article>
+                            O marketing digital é uma ferramenta fundamental para para a 
+                            divulgação de marcas e produtos. A Naza desenvolve estratégias de 
+                            marketing digital objetivas para a imediata conexão de sua música e 
+                            sua imagem com o público. Os serviços para esta plataforma de divulgação 
+                            são, entre outros, gerenciamento de blog, marketing de conteúdo, e-mail 
+                            marketing, anúncios gráficos, marketing de vídeo, anúncios digitais pagos, 
+                            banners, anúncios para celular, analíticos e (???)
+                            </article>
+                        </Col>
+                        <Col sm={6} className='list-image-Right'>
+                        <img src='./02img_assesoria.png' alt="" />
+                        </Col>
+                    </Row>
+                    <Row id='agenciamento'>
+                        <Col sm={6} className='list-image-Left'>
+                        <img src='./05img_shows.png' alt="" />
+                        </Col>
+                        <Col sm={6} className='list-text-Left' >
+                            <h4> 07/ </h4>
+                            <h4> Desenvolvimento de Artistas </h4>
+                            <article>
+                            Somos movidos pela arte e a paixão de seus artistas. Nosso propósito é descobrir, 
+                            desenvolver e empregar as melhores estratégias para o artista atingir seu objetivo 
+                            profissional e artístico. Para isso, a empresa conta com equipes de profissionais 
+                            especializados em gestão de carreira, assessoria artística, produção musical e de 
+                            shows, agenciamento, representação, marketing, contratação e promoção de eventos.
+                            </article>
                         </Col>
                     </Row>
                 </Container>

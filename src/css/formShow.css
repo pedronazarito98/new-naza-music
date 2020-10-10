@@ -1,25 +1,15 @@
 .FormCentral{
-    max-width: 700px;
-    
+    max-width: 50%;
     margin-top: 2%;
+    display: flex;
+    justify-content: center;
 }
-
-
-.container-fluid{
-    
-    justify-content: space-between;
-}
-.botaoEnviar{
+.botao-enviar{
     border-radius: 0%;
     background-color: rgb(211, 22, 22);
     margin-bottom: 20px;
     margin: auto;
     text-align: center;
-}
-.Formulario1{
-    width: 700px;
-    margin: auto;
-    padding-top: 15px;
 }
 .titleForm{
     background-color: rgba(212, 207, 207, 0.644);
@@ -30,26 +20,14 @@
     letter-spacing: 2px;
     font-family:fantasy;
 }
-
-
-.selectArtists{
+.select-Artists{
     color:gray;
     padding-top: 15px;
 }
 
-.selectDatas{
-    color: gray;
-    padding-top: 15px;
-}
-
-.Formulario2{
-    width: 700px;
-    margin: auto;
-    color: gray;
-}
-.titleContato{
+.title-Contato{
     background-color: rgba(212, 207, 207, 0.644);
-    height: 100px;
+    height: 100;
     font-size: 20px;
     text-align: center;
     padding-top: 20px;
@@ -57,29 +35,22 @@
     font-family:fantasy;
 }
 
-.titleContato h1{
+.title-Contato h1{
     padding-bottom: 10px;
     color: black;
 }
 
-.titleContato h2{
+.title-Contato h2{
     padding-top: 5px;
 }
 
-.infoContato{
+.info-Contato{
     padding-top: 15px;
 }
 
-.Formulario3{
-    width: 700px;
-    margin: auto;
-    padding-top: 15px;
-    padding-bottom: 20px;
-}
-
-.titleEvento{
+.title-Evento{
     background-color: rgba(212, 207, 207, 0.644);
-    height: 100px;
+    height: 100;
     font-size: 20px;
     text-align: center;
     padding-top: 35px;
@@ -87,7 +58,7 @@
     font-family:fantasy;
 }
 
-.infoEvento{
+.info-Evento{
     padding-top: 15px;
     color: gray;
 }

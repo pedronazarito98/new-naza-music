@@ -43,3 +43,9 @@
     padding-top: 15px;
     margin-top: 5px;
 }
+
+
+.link-servicos a {
+    color: #696969;
+    text-decoration: none;
+}

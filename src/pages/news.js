@@ -1,6 +1,5 @@
-import React from 'react'
+import React from 'react';
 import Noticias from '../components/News';
-
 const News = () => {
     return (
         <div>

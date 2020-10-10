@@ -14,5 +14,7 @@ a:hover{
 
 body{
     contain: layout;
+    font-family: 'Piazzolla', serif;
+    font-size:1.5rem;
 }
 

@@ -1,58 +1,43 @@
 import React from 'react'
-import { Container, Row, Card } from 'react-bootstrap'
+import { Container, Row} from 'react-bootstrap'
 
 const SobreNos = () => {
     return (
         <React.Fragment>
             <Container fluid={true}>
+                <div className='slider--width'>
+                    <div class="slider--item" >
+                    <div >
+                        <h1>Sobre Naza </h1>
+                        <hr className='linhaText'/>
+                    </div>
+                    </div>
+                </div>
                 <Row>
-                    <Card className="bg-dark text-white">
-                        <Card.Img src="./backgroundKits2.png" alt="Card image" />
-                        <Card.ImgOverlay>
-                            <Card.Title className='text-center'> Sobre Nós </Card.Title>
-                            <Card.Text>
-                            <p className='text-xl-center text-white '>
-                                A meta da Naza é maximizar o potencial
-                                de cada cliente e contribuir para que
-                                o retorno do trabalho seja satisfatótio e lucrativo.
-                            </p>
-                            </Card.Text>
-                            
-                        </Card.ImgOverlay>
-                    </Card>
-                </Row>
-                <Row>
-                    <div className='textSobre'>
-                        <h2>
-                            "POSICIONA O ARTISTA NO MERCADO, 
-                            AUMENTA SUA VISIBILIDADE NA MÍDIA, 
-                            AMPLIA A AGENDA DE SHOWS E FAZ PARCERIAS JUNTO AOS 
-                            EMPRESÁRIOS DE GRANDES NOMES DO CENÁRIO ARTÍSTICO."
+                    <div className='text-Sobre'>
+                        <h2 className='sub-title'>
+                            "A Naza atende a um grupo de talentosos artistas 
+                            em desenvolvimento e estabelecidos, assim como produtoras,
+                            selos e gravadoras."
                         </h2>
                         <p>
-                            Somos a Naza Music Entreterimento, uma empresa criada em 2001, em Belo Horizonte,
-                            dentro de uma concepção inovadora no mercado. Nesses mais de 17 anos de estrada,
-                            ultrapassamos as fronteiras de uma gravadora e atuamos como uma agência musical
-                            oferecendo uma estrutura completa para atender artistas e empresas de diversos segmentos.
+                        A Naza Music Entretenimento é uma empresa musical que oferece 
+                        estrutura completa para atender artistas e compositores de diversos 
+                        segmentos. Criada em 2001, em Belo Horizonte, dentro de uma concepção 
+                        inovadora de mercado artístico e musical, aliamos a paixão pelo 
+                        trabalho à estratégias dinâmicas de divulgação e promoção, lançando mão, 
+                        para isso, das mais variadas inovações tecnológicas disponíveis.
+                        Combinamos a tradição da arte com a atualidade do mercado, uma vez que o sucesso
+                        do cliente é o que determina a eficiência e a distinção da empresa. Por isso, 
+                        oferecemos serviços exclusivos e diferenciados, já reconhecidos e destacados no 
+                        cenário fonográfico e de shows e eventos. 
                         </p>
                         <p>
-                            Nossa equipe, motivada pela paixão à arte e suas conexões com a cultura, 
-                            a tecnologia e o empreendedorismo, se dedica à prestação de serviços exclusivos e diferenciados, 
-                            com reconhecido destaque no cenário musical e fonográfico.
+                        Por isso, oferecemos serviços exclusivos e diferenciados, 
+                        já reconhecidos e destacados no cenário fonográfico e de shows 
+                        e eventos.
                         </p>
-                        <p>
-                            Atendemos a um seleto grupo de talentosos artistas e marcas – jovens e consagrados. 
-                            Nossas ações são estudadas, planejadas e estratégicas, 
-                            seguindo um panorama direcionado ao sucesso.
-                        </p>
-                        <p>
-                            A meta da Naza Music é maximizar o potencial de sucesso, 
-                            o poder lucrativo e oportunidades de negócios para nossos artistas, 
-                            compositores, colaboradores, parceiros e associados. 
-                            Para nós, valores como comprometimento, ética, criatividade, 
-                            iniciativa e persistência são essenciais para o desenvolvimento
-                            e o lançamento de fortes produtos no mercado: conectando artistas, marcas e o público.
-                        </p>
+                        
                     </div>
                 </Row>
             </Container>

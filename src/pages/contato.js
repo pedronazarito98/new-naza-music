@@ -1,6 +1,5 @@
 import React from 'react'
 import { Form, FormGroup, FormLabel, FormControl, Row, Col, Button, Container} from 'react-bootstrap'
-
 const Contato = () => {
     return (
         <React.Fragment>
