@@ -7,7 +7,7 @@ const SectionServicos = () => {
             <h1>nossos serviços</h1>
             <hr className='linhaText'/>
         </header>
-        <div className='ListaImagens link-servicos' >
+        <div className='ListaImagens' >
             <nav className='ListaImagens-container'>
                 <div className='ListaImagens-Item'>
                     <a href='#/servicos'>

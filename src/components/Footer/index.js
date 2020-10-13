@@ -18,7 +18,7 @@ const Footer = () => {
                         </Col>
                         {/*Coluna 2*/}
                         <Col sm className='sub-title-footer'>
-                            <h4 > Explore a Naza Music </h4>
+                            <h3 > Explore a Naza Music </h3>
                             <ul className='list-unstyled'>
                                 <img className='img-footer' src='./Logomarca_NAZA1.png' href='/' alt="" />
                             </ul>

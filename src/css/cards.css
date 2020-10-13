@@ -34,31 +34,3 @@
     margin-right: 50px;
     margin-bottom: 10px;
 }
-
-
-
-
-
-/* CARDS NEWS na Home pag*/
-
-.cards{
-    max-width: 250px;
-    max-height: 40%;
-    height: auto;
-    width: auto;
-    margin-right: 20px;
-    margin-left: 10px;
-    margin-top: 10px; 
-}
-
-.Sectioncard{
-    max-width: max-content;
-    max-height: max-content;
-    height: auto;
-    
-}
-
-.btCard{
-    margin-top: 10%;
-    margin-left: 25%;
-}

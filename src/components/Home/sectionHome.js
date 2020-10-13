@@ -8,8 +8,8 @@ const SectionHome = () =>{
                 <h1 className='FirstTitle'>Naza Música em movimento</h1>
                 <hr className='linhaTexto'/>
                 <p className=' TextoCentral'>
-                A META DA NAZA MUSIC É MAXIMIZAR O POTENCIAL DE CADA CLIENTE 
-                E CONTRIBUIR PARA QUE O RETORNO DO TRABALHO SEJA LUCRATIVO.
+                    A META DA NAZA MUSIC É MAXIMIZAR O POTENCIAL DE CADA CLIENTE 
+                    E CONTRIBUIR PARA QUE O RETORNO DO TRABALHO SEJA LUCRATIVO.
                 </p>
             </header>
             <div className='SectionTitle'>

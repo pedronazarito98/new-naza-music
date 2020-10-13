@@ -1,6 +1,6 @@
-import React from 'react'
-import SlideArtista from '../components/Slide/slideArstista'
-import SectionArtistas from '../components/Artistas/sectionArtistas'
+import React from 'react';
+import SlideArtista from '../components/Slide/slideArstista';
+import SectionArtistas from '../components/Artistas/sectionArtistas';
 
 const Artista = () => {
     return (
