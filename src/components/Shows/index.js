@@ -12,7 +12,7 @@ const Shows = () => {
                                 <div className='FirstForm'>
                                     <Form>
                                         <FormGroup className='select-Artists'>
-                                            <FormLabel>Selecione um Artista</FormLabel>
+                                            <FormLabel className="name-form">Selecione um Artista</FormLabel>
                                             <FormControl as='select' placeholder='Selecione o Artista'>
                                                 <option> Fonseec </option>
                                                 <option> George </option>
@@ -26,7 +26,7 @@ const Shows = () => {
                                             </FormControl>
                                         </FormGroup>
                                         <FormGroup className='selectArtists'>
-                                            <FormLabel> Informações Adicionais </FormLabel>
+                                            <FormLabel className="name-form"> Informações Adicionais </FormLabel>
                                             <FormControl as='textarea' rows='3' />
                                         </FormGroup>
                                     </Form>
@@ -44,21 +44,21 @@ const Shows = () => {
                             <FormGroup className='info-Contato'>
                                 <Row>
                                     <Col>
-                                        <FormLabel>Nome</FormLabel>
+                                        <FormLabel className="name-form">Nome</FormLabel>
                                         <FormControl  type='text' placeholder='Nome' />
                                     </Col>
                                     <Col>
-                                        <FormLabel>Sobrenome</FormLabel>
+                                        <FormLabel className="name-form">Sobrenome</FormLabel>
                                         <FormControl type='text' placeholder='Sobrenome'/>
                                     </Col>
                                 </Row>
                             </FormGroup>
                             <FormGroup>
-                                <FormLabel>Email</FormLabel>
+                                <FormLabel className="name-form">Email</FormLabel>
                                 <FormControl type='email' placeholder='nome@example.com' />
                             </FormGroup>
                             <FormGroup>
-                                <FormLabel>Telefone</FormLabel>
+                                <FormLabel className="name-form">Telefone</FormLabel>
                                 <FormControl placeholder='(DDD) XXXXX-XXXX'/>
                             </FormGroup>
                         </Form>
@@ -74,21 +74,21 @@ const Shows = () => {
                                 <FormGroup className='info-Evento'>
                                     <Row>
                                         <Col>
-                                        <FormLabel>Capacidade</FormLabel>
+                                        <FormLabel className="name-form">Capacidade</FormLabel>
                                         <FormControl />
                                         </Col>
                                         <Col>
-                                        <FormLabel>Tempo de Performace</FormLabel>
+                                        <FormLabel className="name-form">Tempo de Performace</FormLabel>
                                         <FormControl />
                                         </Col>
                                     </Row>
                                     <FormGroup>
-                                        <FormLabel>Nome do Evento</FormLabel>
+                                        <FormLabel className="name-form">Nome do Evento</FormLabel>
                                         <FormControl />
                                     </FormGroup>
                                 </FormGroup>
                                 <FormGroup className='infoEvento'>
-                                    <FormLabel> Mais Informações </FormLabel>
+                                    <FormLabel className="name-form"> Mais Informações </FormLabel>
                                     <FormControl as='textarea' rows='3' />
                                 </FormGroup>
                                 <Button  className='botao-enviar shadow-sm' variant='inline'> Enviar solicitação</Button>

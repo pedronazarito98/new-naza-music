@@ -2,6 +2,7 @@
     display: flex;
     flex: 1;
     justify-content: flex-start;
+    padding-top: 3%;
 }
 
 .sectionServices{
@@ -16,7 +17,6 @@
     justify-content:center ;
     max-width: 100 ;
     max-height: 100;
-    box-shadow: 0px 5px 10px;
 }
 .list-text-Left{
     background-color: whitesmoke;
@@ -28,11 +28,8 @@
 .list-image-Right{
     display:flex;
     justify-content:center ;
-    
     max-width: 100 ;
     max-height: 100;
-    box-shadow: 0px 5px 10px;
-
 }
 .list-text-Right{
     background-color: whitesmoke;

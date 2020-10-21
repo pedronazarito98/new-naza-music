@@ -23,10 +23,10 @@ const Header = () => {
                         <Nav.Link href="#/sobre">Sobre</Nav.Link>
                         <Nav.Link href="#/contato">Contato</Nav.Link>
                         <NavDropdown title="Artistas" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="#/artistaSolo">Fonseec</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2">George</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Murilo Santiago</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.4">Tadeu Franco</NavDropdown.Item>
+                            <NavDropdown.Item href="#/artistaSolo"> Fonseec </NavDropdown.Item>
+                            <NavDropdown.Item href="#/pageGeorge"> George Arrunateghi </NavDropdown.Item>
+                            <NavDropdown.Item href="#/pageMurilo"> Murilo Santiago </NavDropdown.Item>
+                            <NavDropdown.Item href="#/pageTadeu"> Tadeu Franco </NavDropdown.Item>
                         </NavDropdown>
                         </Nav>
                         
