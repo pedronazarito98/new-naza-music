@@ -6,12 +6,12 @@ const SobreNos = () => {
         <React.Fragment>
             <Container fluid={true}>
                 <div className='slider--width'>
-                    <div class="slider--item" >
-                    <div >
+                    <div className="slider--item" > </div>
+                    <div className='slider--text'>
                         <h1>Sobre Naza </h1>
                         <hr className='linhaText'/>
                     </div>
-                    </div>
+                    
                 </div>
                 <Row>
                     <div className='text-Sobre'>

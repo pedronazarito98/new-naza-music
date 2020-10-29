@@ -15,8 +15,8 @@
     
 }
 #dropdown-basic{
-    width: 175px;
-    height: 41px;
+    max-width: 165px;
+    height: 33px;
     margin-top: 0px;
     width: 100%;
     float: left;
@@ -24,7 +24,6 @@
     color: white;
     border-radius: 0%;
 }
-
 
 
 .albuma{

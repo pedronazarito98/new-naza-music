@@ -1,6 +1,12 @@
 import React from "react";
-import CardMusic from "../components/Artistas/cardsMusic";
-import { Carousel } from "react-bootstrap";
+import {
+  Figure,
+  Dropdown,
+  DropdownButton,
+  Col,
+  Row,
+  Carousel,
+} from "react-bootstrap";
 
 const SectionMurilo = () => {
   return (
@@ -45,27 +51,138 @@ const SectionMurilo = () => {
         <div className="h40"></div>
         <h1 className="upper">
           <div className="left"> Murilo Santiago </div>
-          <a className="icon" href="#/">
+          <a
+            className="icon"
+            href="https://www.instagram.com/murilosantiagocompositor/"
+            title="Instagram"
+          >
             {" "}
             <img src="./instagram-icon.png" alt="" />{" "}
           </a>
-          <a className="icon" href="#/">
+          <a
+            className="icon"
+            href="https://open.spotify.com/artist/6XHF5j783jbEMT3sM2q9Y7?si=6-EtNhSsR02yXvOFubSVBw"
+            title="Spotify"
+          >
             {" "}
             <img src="./spotify_icon.png" alt="" />{" "}
           </a>
-          <a className="icon" href="#/news">
+          <a
+            className="icon"
+            href="https://www.facebook.com/murilosantiagocompositor"
+            title="Facebook"
+          >
             {" "}
             <img src="./FB_icon.png" alt="" />{" "}
           </a>
-          <a className="icon" href="#/">
+          <a
+            className="icon"
+            href="https://www.youtube.com/channel/UCOZcBp-ZjnQDo1tX5NGLwvw/featured"
+            title="Youtube"
+          >
             {" "}
             <img src="./youtube_icon.png" alt="" />{" "}
           </a>
           <div className="clear"></div>
         </h1>
-        <div>
-          <CardMusic />
-        </div>
+        <Row>
+          <Col>
+            <Figure>
+              <Figure.Image src="/tadeuCard.png" />
+              <DropdownButton
+                id="dropdown-basic"
+                variant="inline"
+                title="Ouvir"
+              >
+                <Dropdown.Item
+                  href="https://open.spotify.com/artist/5dkV6Utwjf4MjWWNlsKWfp?autoplay=true"
+                  title="Spotify"
+                >
+                  {" "}
+                  Spotify{" "}
+                </Dropdown.Item>
+                <Dropdown.Item
+                  href="https://www.youtube.com/channel/UCsrIo0Rq5jnGtzAH5BeOErw"
+                  title="Youtube"
+                >
+                  {" "}
+                  Youtube{" "}
+                </Dropdown.Item>
+                <Dropdown.Item
+                  href="https://open.spotify.com/artist/5dkV6Utwjf4MjWWNlsKWfp?autoplay=true"
+                  title="Deezer"
+                >
+                  {" "}
+                  Deezer{" "}
+                </Dropdown.Item>
+              </DropdownButton>
+            </Figure>
+          </Col>
+          <Col>
+            <Figure>
+              <Figure.Image src="/tadeuCard.png" />
+              <DropdownButton
+                id="dropdown-basic"
+                variant="inline"
+                title="Ouvir"
+              >
+                <Dropdown.Item
+                  href="https://open.spotify.com/artist/5dkV6Utwjf4MjWWNlsKWfp?autoplay=true"
+                  title="Spotify"
+                >
+                  {" "}
+                  Spotify{" "}
+                </Dropdown.Item>
+                <Dropdown.Item
+                  href="https://www.youtube.com/channel/UCsrIo0Rq5jnGtzAH5BeOErw"
+                  title="Youtube"
+                >
+                  {" "}
+                  Youtube{" "}
+                </Dropdown.Item>
+                <Dropdown.Item
+                  href="https://open.spotify.com/artist/5dkV6Utwjf4MjWWNlsKWfp?autoplay=true"
+                  title="Deezer"
+                >
+                  {" "}
+                  Deezer{" "}
+                </Dropdown.Item>
+              </DropdownButton>
+            </Figure>
+          </Col>
+          <Col>
+            <Figure>
+              <Figure.Image src="/tadeuCard2.png" />
+              <DropdownButton
+                id="dropdown-basic"
+                variant="inline"
+                title="Ouvir"
+              >
+                <Dropdown.Item
+                  href="https://open.spotify.com/artist/5dkV6Utwjf4MjWWNlsKWfp?autoplay=true"
+                  title="Spotify"
+                >
+                  {" "}
+                  Spotify{" "}
+                </Dropdown.Item>
+                <Dropdown.Item
+                  href="https://www.youtube.com/channel/UCsrIo0Rq5jnGtzAH5BeOErw"
+                  title="Youtube"
+                >
+                  {" "}
+                  Youtube{" "}
+                </Dropdown.Item>
+                <Dropdown.Item
+                  href="https://open.spotify.com/artist/5dkV6Utwjf4MjWWNlsKWfp?autoplay=true"
+                  title="Deezer"
+                >
+                  {" "}
+                  Deezer{" "}
+                </Dropdown.Item>
+              </DropdownButton>
+            </Figure>
+          </Col>
+        </Row>
 
         <div className="release">
           <hr />
