@@ -1,18 +1,38 @@
 import React from "react";
 import { Image } from "react-bootstrap";
 import "./banner.css";
+import { Parallax } from "react-parallax";
+
+const styles = {
+  fontFamily: "sans-serif",
+  textAlign: "center",
+};
+const insideStyles = {
+  padding: 20,
+  position: "absolute",
+  top: "50%",
+  left: "50%",
+  transform: "translate(-50%,-50%)",
+};
+
 
 function Banner() {
   return (
-    <div className="img-fundo">
-      <Image
-        src="/fonseec-card3.png"
-        alt="Fonseec"
-        roundedCircle
-        className="img-circle"
-      />
-      <h1> Fonseec </h1>
-      <p> Rapper </p>
+    <div style={styles}>
+      <Parallax bgImage={require('./components/Artistas/images/batomVermelho.jpg')} blur={{ min: -1, max: 3 }}>
+        <div style={{ height: 500 }}>
+          <div style={insideStyles}>
+            <Image
+              src="/fonseec-card3.png"
+              alt="Fonseec"
+              roundedCircle
+              className="img-circle"
+            />
+            <h1> Fonseec </h1>
+            <p> Rapper </p>
+          </div>
+        </div>
+      </Parallax>
 
       <ul className="icones-social-media">
         <a
