@@ -1,82 +1,37 @@
-import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
-import GridList from "@material-ui/core/GridList";
-import GridListTile from "@material-ui/core/GridListTile";
-import GridListTileBar from "@material-ui/core/GridListTileBar";
-import IconButton from "@material-ui/core/IconButton";
-import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
-import tileData from "./titleData";
-import clsx from "clsx";
+import React, {useState} from 'react';
+import  './cardMusic.css';
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    display: "flex",
-    flexWrap: "wrap",
-    justifyContent: "space-around",
-    overflow: "hidden",
-    backgroundColor: theme.palette.background.paper,
-  },
-  gridList: {
-    flexWrap: "nowrap",
-    transform: "translateZ(0)",
-  },
-  expand: {
-    transform: "rotate(0deg)",
-    marginLeft: "auto",
-    transition: theme.transitions.create("transform", {
-      duration: theme.transitions.duration.shortest,
-    }),
-  },
-  expandOpen: {
-    transform: "rotate(180deg)",
-  },
-  title: {
-    color: theme.palette.primary.light,
-  },
-  titleBar: {
-    background:
-      "linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 70%, rgba(0,0,0,0) 100%)",
-  },
-}));
 
-export default function SingleLineGridList() {
-  const classes = useStyles();
-  const [expanded, setExpanded] = React.useState(false);
+function flip(event){
 
-  const hadleExpandClick = () => {
-    setExpanded(!expanded);
-  };
+    const transform =  transform='rotate(180deg)'
+	var element = event.currentTarget;
+	if (element.className === "card") {
+    if(element.style.transform === "rotateY(180deg)") {
+      element.style.transform = "rotateY(0deg)";
+    }
+    else {
+      element.style.transform = "rotateY(180deg)";
+    }
+  }
+};
+const cardMusic = () => {
   return (
-    <React.Fragment>
-      <div className={classes.root}>
-        <GridList className={classes.gridList} cols={2.5}>
-          {tileData.map((tile) => (
-            <GridListTile key={tile.img}>
-              <img src={tile.img} alt={tile.title} />
-              <GridListTileBar
-                title={tile.title}
-                classes={{
-                  root: classes.titleBar,
-                  title: classes.title,
-                }}
-                actionIcon={
-                  <IconButton
-                    className={clsx(classes.expand, {
-                      [classes.expandOpen]: expanded,
-                    })}
-                    onClick={hadleExpandClick}
-                    arial-expanded={expanded}
-                    arial-laebel="Mostrar mais"
-                  >
-                    <ExpandMoreIcon className={classes.title} />
-                  </IconButton>
-                  
-                }
-              />
-            </GridListTile>
-          ))}
-        </GridList>
-      </div>
-    </React.Fragment>
-  );
+    <>
+<div class="container">
+  <div class="card" onclick={flip(event)}>
+    <div class="front">
+      <h1>This is the front</h1>
+      <p> Here is some additional text</p>
+    </div>
+    <div class="back">
+      <h1>This is the back</h1>
+    </div>
+  </div>
+</div>
+    </>
+
+  )
 }
+
+export default cardMusic;

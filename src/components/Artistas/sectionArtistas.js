@@ -5,44 +5,7 @@ const SectionArtistas = () => {
   return (
     <React.Fragment>
       <div className="w984 overflowFix ">
-        <div className="h40"></div>
-        <h1 className="upper">
-          <div className="left"> Fonseec </div>
-          <a
-            className="icon"
-            href="https://www.instagram.com/fonseecoficial/"
-            title="Instagram"
-          >
-            {" "}
-            <img src="./instagram-icon.png" alt="" />{" "}
-          </a>
-          <a
-            className="icon"
-            href="https://open.spotify.com/artist/4Ycr4rT2v2QOPlNL5G8dIV?si=CA1i_psgQQiQgxR_eMj8ag"
-            title="Spotify"
-          >
-            {" "}
-            <img src="./spotify_icon.png" alt="" />{" "}
-          </a>
-          <a
-            className="icon"
-            href="https://www.facebook.com/fonseecoficial"
-            title="Facebook"
-          >
-            {" "}
-            <img src="./FB_icon.png" alt="" />{" "}
-          </a>
-          <a
-            className="icon"
-            href="https://www.youtube.com/channel/UCAZa5Z2e2-8Z6LqOTskr-Qw/featured"
-            title="Youtube"
-          >
-            {" "}
-            <img src="./youtube_icon.png" alt="" />{" "}
-          </a>
-          <div className="clear"></div>
-        </h1>
-        <div>
+        
           <SingleLineGridList />
         </div>
 
@@ -71,7 +34,6 @@ const SectionArtistas = () => {
           </div>
           <hr className="linha" />
         </div>
-      </div>
     </React.Fragment>
   );
 };

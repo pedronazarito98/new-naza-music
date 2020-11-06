@@ -1,7 +1,6 @@
 import React from "react";
-import SectionArtistas from "../components/Artistas/sectionArtistas";
-import Banner from '../components/Artistas/bg-img/index';
-
+import Banner from '../components/Artistas/Banner/index';
+import CardMusic from '../components/Artistas/cardMusic2'
 const Artista = () => {
   return (
       <>
@@ -9,7 +8,7 @@ const Artista = () => {
     <Banner />
       
       <div>
-        <SectionArtistas />
+        <CardMusic />
       </div>
     </div>
     </>
