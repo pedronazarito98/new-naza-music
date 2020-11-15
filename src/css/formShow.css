@@ -3,6 +3,7 @@
     margin-top: 2%;
     display: flex;
     justify-content: center;
+    width: 750px;
 }
 .botao-enviar{
     border-radius: 0%;

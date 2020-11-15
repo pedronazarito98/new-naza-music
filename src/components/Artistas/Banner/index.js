@@ -1,7 +1,7 @@
 import React from "react";
 import { Image } from "react-bootstrap";
 import "./banner.css";
-import { Parallax } from "react-parallax";
+import  {Parallax}  from "react-parallax";
 import fonseecImg from "../images/fonseec-card3.png";
 
 const styles = {
