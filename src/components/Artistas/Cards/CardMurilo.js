@@ -46,8 +46,9 @@ const CardMurilo = () => {
             <Figure onClick={handleClick} className="cardBack">
               <a
                 style={styleIcons}
-                href="https://open.spotify.com/artist/6XHF5j783jbEMT3sM2q9Y7?si=6-EtNhSsR02yXvOFubSVBw"
+                href="https://open.spotify.com/album/1wMpHRZPUYSOnZdNzY28wp"
                 title="Spotify"
+                target="_blank" rel="noopener noreferrer"
               >
                 {" "}
                 <i class="fab fa-spotify"></i>{" "}
@@ -56,6 +57,7 @@ const CardMurilo = () => {
                 style={styleIcons}
                 href="https://www.youtube.com/channel/UCOZcBp-ZjnQDo1tX5NGLwvw/featured"
                 title="Youtube"
+                target="_blank" rel="noopener noreferrer"
               >
                 {" "}
                 <i class="fab fa-youtube"></i>{" "}
@@ -64,6 +66,7 @@ const CardMurilo = () => {
                 style={styleIcons}
                 href="https://www.deezer.com/en/artist/80911222"
                 title="Deezer"
+                target="_blank" rel="noopener noreferrer"
               >
                 {" "}
                 <i class="fab fa-deezer"></i>{" "}
@@ -72,6 +75,7 @@ const CardMurilo = () => {
                 style={styleIcons}
                 href="https://music.apple.com/br/artist/george-arrunateghi/912494498"
                 title="Apple Music"
+                target="_blank" rel="noopener noreferrer"
               >
                 {" "}
                 <i class="fab fa-apple"></i>{" "}
@@ -96,6 +100,7 @@ const CardMurilo = () => {
                 style={styleIcons}
                 href="https://open.spotify.com/artist/6XHF5j783jbEMT3sM2q9Y7?si=6-EtNhSsR02yXvOFubSVBw"
                 title="Spotify"
+                target="_blank" rel="noopener noreferrer"
               >
                 {" "}
                 <i class="fab fa-spotify"></i>{" "}
@@ -104,6 +109,7 @@ const CardMurilo = () => {
                 style={styleIcons}
                 href="https://open.spotify.com/artist/6XHF5j783jbEMT3sM2q9Y7?si=6-EtNhSsR02yXvOFubSVBw"
                 title="Youtube"
+                target="_blank" rel="noopener noreferrer"
               >
                 {" "}
                 <i class="fab fa-youtube"></i>{" "}
@@ -112,6 +118,7 @@ const CardMurilo = () => {
                 style={styleIcons}
                 href="https://www.deezer.com/en/artist/80911222"
                 title="Deezer"
+                target="_blank" rel="noopener noreferrer"
               >
                 {" "}
                 <i class="fab fa-deezer"></i>{" "}
@@ -120,6 +127,7 @@ const CardMurilo = () => {
                 style={styleIcons}
                 href="https://music.apple.com/br/artist/george-arrunateghi/912494498"
                 title="Apple Music"
+                target="_blank" rel="noopener noreferrer"
               >
                 {" "}
                 <i class="fab fa-apple"></i>{" "}
@@ -144,6 +152,7 @@ const CardMurilo = () => {
                 style={styleIcons}
                 href="https://open.spotify.com/artist/6XHF5j783jbEMT3sM2q9Y7?si=6-EtNhSsR02yXvOFubSVBw"
                 title="Spotify"
+                target="_blank" rel="noopener noreferrer"
               >
                 {" "}
                 <i class="fab fa-spotify"></i>{" "}
@@ -152,6 +161,7 @@ const CardMurilo = () => {
                 style={styleIcons}
                 href="https://open.spotify.com/artist/6XHF5j783jbEMT3sM2q9Y7?si=6-EtNhSsR02yXvOFubSVBw"
                 title="Youtube"
+                target="_blank" rel="noopener noreferrer"
               >
                 {" "}
                 <i class="fab fa-youtube"></i>{" "}
@@ -160,6 +170,7 @@ const CardMurilo = () => {
                 style={styleIcons}
                 href="https://www.deezer.com/en/artist/80911222"
                 title="Deezer"
+                target="_blank" rel="noopener noreferrer"
               >
                 {" "}
                 <i class="fab fa-deezer"></i>{" "}
@@ -168,6 +179,7 @@ const CardMurilo = () => {
                 style={styleIcons}
                 href="https://music.apple.com/br/artist/george-arrunateghi/912494498"
                 title="Apple Music"
+                target="_blank" rel="noopener noreferrer"
               >
                 {" "}
                 <i class="fab fa-apple"></i>{" "}

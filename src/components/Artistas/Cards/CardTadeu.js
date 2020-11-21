@@ -46,6 +46,7 @@ const CardTadeu = () => {
                 style={styleIcons}
                 href="https://open.spotify.com/artist/5dkV6Utwjf4MjWWNlsKWfp?autoplay=true"
                 title="Spotify"
+                target="_blank" rel="noopener noreferrer"
               >
                 {" "}
                 <i class="fab fa-spotify"></i>{" "}
@@ -54,6 +55,7 @@ const CardTadeu = () => {
                 style={styleIcons}
                 href="https://www.youtube.com/channel/UCsrIo0Rq5jnGtzAH5BeOErw"
                 title="Youtube"
+                target="_blank" rel="noopener noreferrer"
               >
                 {" "}
                 <i class="fab fa-youtube"></i>{" "}
@@ -62,6 +64,7 @@ const CardTadeu = () => {
                 style={styleIcons}
                 href="https://open.spotify.com/artist/5dkV6Utwjf4MjWWNlsKWfp?autoplay=true"
                 title="Deezer"
+                target="_blank" rel="noopener noreferrer"
               >
                 {" "}
                 <i class="fab fa-deezer"></i>{" "}
@@ -70,6 +73,7 @@ const CardTadeu = () => {
                 style={styleIcons}
                 href="https://music.apple.com/br/artist/george-arrunateghi/912494498"
                 title="Apple Music"
+                target="_blank" rel="noopener noreferrer"
               >
                 {" "}
                 <i class="fab fa-apple"></i>{" "}
@@ -94,6 +98,7 @@ const CardTadeu = () => {
                 style={styleIcons}
                 href="https://open.spotify.com/artist/5dkV6Utwjf4MjWWNlsKWfp?autoplay=true"
                 title="Spotify"
+                target="_blank" rel="noopener noreferrer"
               >
                 {" "}
                 <i class="fab fa-spotify"></i>{" "}
@@ -102,6 +107,7 @@ const CardTadeu = () => {
                 style={styleIcons}
                 href="https://www.youtube.com/channel/UCsrIo0Rq5jnGtzAH5BeOErw"
                 title="Youtube"
+                target="_blank" rel="noopener noreferrer"
               >
                 {" "}
                 <i class="fab fa-youtube"></i>{" "}
@@ -110,6 +116,7 @@ const CardTadeu = () => {
                 style={styleIcons}
                 href="https://open.spotify.com/artist/5dkV6Utwjf4MjWWNlsKWfp?autoplay=true"
                 title="Deezer"
+                target="_blank" rel="noopener noreferrer"
               >
                 {" "}
                 <i class="fab fa-deezer"></i>{" "}
@@ -118,6 +125,7 @@ const CardTadeu = () => {
                 style={styleIcons}
                 href="https://music.apple.com/br/artist/george-arrunateghi/912494498"
                 title="Apple Music"
+                target="_blank" rel="noopener noreferrer"
               >
                 {" "}
                 <i class="fab fa-apple"></i>{" "}

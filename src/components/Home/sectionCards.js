@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 import { Row, Col, Container, Card, CardDeck } from "react-bootstrap";
-import ModalNews from '../Modal/Modal'
+import ModalNews from "../Modal/Modal";
 const SectionCards = () => {
   return (
     <React.Fragment>
@@ -14,7 +14,7 @@ const SectionCards = () => {
                 <Card.Body>
                   <Card.Title>Noticias</Card.Title>
                   <Card.Text>Texto teste</Card.Text>
-                  <ModalNews/>
+                  <ModalNews />
                 </Card.Body>
               </Card>
             </Col>
@@ -25,7 +25,7 @@ const SectionCards = () => {
                 <Card.Body>
                   <Card.Title>Noticias</Card.Title>
                   <Card.Text>Texto teste</Card.Text>
-                    <ModalNews/>
+                  <ModalNews />
                 </Card.Body>
               </Card>
             </Col>

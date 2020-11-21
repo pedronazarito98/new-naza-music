@@ -49,6 +49,7 @@ function BannerTadeu() {
             style={styleIcons}
             href="https://www.instagram.com/tadeufrancooficial/"
             title="Instagram"
+            target="_blank" rel="noopener noreferrer"
           >
             {" "}
             <i class="fab fa-instagram"></i>
@@ -57,6 +58,7 @@ function BannerTadeu() {
             style={styleIcons}
             href="https://open.spotify.com/artist/5dkV6Utwjf4MjWWNlsKWfp?autoplay=true"
             title="Spotify"
+            target="_blank" rel="noopener noreferrer"
           >
             {" "}
             <i class="fab fa-spotify"></i>{" "}
@@ -65,6 +67,7 @@ function BannerTadeu() {
             style={styleIcons}
             href="https://open.spotify.com/artist/5dkV6Utwjf4MjWWNlsKWfp?autoplay=true"
             title="Facebook"
+            target="_blank" rel="noopener noreferrer"
           >
             {" "}
             <i class="fab fa-facebook"></i>
@@ -73,6 +76,7 @@ function BannerTadeu() {
             style={styleIcons}
             href="https://www.youtube.com/channel/UCsrIo0Rq5jnGtzAH5BeOErw"
             title="Youtube"
+            target="_blank"  rel="noopener noreferrer"
           >
             {" "}
             <i class="fab fa-youtube"></i>{" "}

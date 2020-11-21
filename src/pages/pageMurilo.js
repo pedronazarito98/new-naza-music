@@ -49,6 +49,7 @@ function Banner() {
             style={styleIcons}
             href="https://www.instagram.com/murilosantiagocompositor/"
             title="Instagram"
+            target="_blank" rel="noopener noreferrer"
           >
             {" "}
             <i class="fab fa-instagram"></i>
@@ -57,6 +58,7 @@ function Banner() {
             style={styleIcons}
             href="https://open.spotify.com/artist/6XHF5j783jbEMT3sM2q9Y7?si=6-EtNhSsR02yXvOFubSVBw"
             title="Spotify"
+            target="_blank" rel="noopener noreferrer"
           >
             {" "}
             <i class="fab fa-spotify"></i>{" "}
@@ -65,6 +67,7 @@ function Banner() {
             style={styleIcons}
             href="https://www.facebook.com/murilosantiagocompositor"
             title="Facebook"
+            target="_blank" rel="noopener noreferrer"
           >
             {" "}
             <i class="fab fa-facebook"></i>
@@ -73,6 +76,7 @@ function Banner() {
             style={styleIcons}
             href="https://www.youtube.com/channel/UCOZcBp-ZjnQDo1tX5NGLwvw/featured"
             title="Youtube"
+            target="_blank" rel="noopener noreferrer"
           >
             {" "}
             <i class="fab fa-youtube"></i>{" "}
