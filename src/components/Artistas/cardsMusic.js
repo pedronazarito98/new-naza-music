@@ -54,6 +54,7 @@ const CardFonseec = () => {
                 style={styleIcons}
                 href="https://open.spotify.com/artist/4Ycr4rT2v2QOPlNL5G8dIV?si=CA1i_psgQQiQgxR_eMj8ag"
                 title="Spotify"
+                target="_blank" rel="noopener noreferrer"
               >
                 {" "}
                 <i class="fab fa-spotify"></i>{" "}
@@ -62,6 +63,7 @@ const CardFonseec = () => {
                 style={styleIcons}
                 href="https://www.deezer.com/en/artist/72189712"
                 title="Deezer"
+                target="_blank" rel="noopener noreferrer"
               >
                 {" "}
                 <i class="fab fa-deezer"></i>{" "}
@@ -70,6 +72,7 @@ const CardFonseec = () => {
                 style={styleIcons}
                 href="https://www.youtube.com/channel/UCAZa5Z2e2-8Z6LqOTskr-Qw/featured"
                 title="Youtube"
+                target="_blank" rel="noopener noreferrer"
               >
                 {" "}
                 <i class="fab fa-youtube"></i>{" "}
@@ -94,6 +97,7 @@ const CardFonseec = () => {
                 style={styleIcons}
                 href="https://open.spotify.com/artist/4Ycr4rT2v2QOPlNL5G8dIV?si=CA1i_psgQQiQgxR_eMj8ag"
                 title="Spotify"
+                target="_blank" rel="noopener noreferrer"
               >
                 {" "}
                 <i class="fab fa-spotify"></i>{" "}
@@ -102,6 +106,7 @@ const CardFonseec = () => {
                 style={styleIcons}
                 href="https://www.deezer.com/en/artist/72189712"
                 title="Deezer"
+                target="_blank" rel="noopener noreferrer"
               >
                 {" "}
                 <i class="fab fa-deezer"></i>{" "}
@@ -110,6 +115,7 @@ const CardFonseec = () => {
                 style={styleIcons}
                 href="https://www.youtube.com/channel/UCAZa5Z2e2-8Z6LqOTskr-Qw/featured"
                 title="Youtube"
+                target="_blank" rel="noopener noreferrer"
               >
                 {" "}
                 <i class="fab fa-youtube"></i>{" "}
@@ -135,6 +141,7 @@ const CardFonseec = () => {
                 style={styleIcons}
                 href="https://open.spotify.com/artist/4Ycr4rT2v2QOPlNL5G8dIV?si=CA1i_psgQQiQgxR_eMj8ag"
                 title="Spotify"
+                target="_blank" rel="noopener noreferrer"
               >
                 {" "}
                 <i class="fab fa-spotify"></i>{" "}
@@ -143,6 +150,7 @@ const CardFonseec = () => {
                 style={styleIcons}
                 href="https://www.deezer.com/en/artist/72189712"
                 title="Deezer"
+                target="_blank" rel="noopener noreferrer"
               >
                 {" "}
                 <i class="fab fa-deezer"></i>{" "}
@@ -151,6 +159,7 @@ const CardFonseec = () => {
                 style={styleIcons}
                 href="https://www.youtube.com/channel/UCAZa5Z2e2-8Z6LqOTskr-Qw/featured"
                 title="Youtube"
+                target="_blank" rel="noopener noreferrer"
               >
                 {" "}
                 <i class="fab fa-youtube"></i>{" "}
@@ -176,6 +185,7 @@ const CardFonseec = () => {
                 style={styleIcons}
                 href="https://open.spotify.com/artist/4Ycr4rT2v2QOPlNL5G8dIV?si=CA1i_psgQQiQgxR_eMj8ag"
                 title="Spotify"
+                target="_blank" rel="noopener noreferrer"
               >
                 {" "}
                 <i class="fab fa-spotify"></i>{" "}
@@ -184,6 +194,7 @@ const CardFonseec = () => {
                 style={styleIcons}
                 href="https://www.deezer.com/en/artist/72189712"
                 title="Deezer"
+                target="_blank" rel="noopener noreferrer"
               >
                 {" "}
                 <i class="fab fa-deezer"></i>{" "}
@@ -191,7 +202,8 @@ const CardFonseec = () => {
               <a
                 style={styleIcons}
                 href="https://www.youtube.com/channel/UCAZa5Z2e2-8Z6LqOTskr-Qw/featured"
-                title="Youtube"
+                title="Youtube" 
+                target="_blank" rel="noopener noreferrer"
               >
                 {" "}
                 <i class="fab fa-youtube"></i>{" "}

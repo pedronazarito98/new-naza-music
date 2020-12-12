@@ -49,6 +49,7 @@ function Banner() {
             style={styleIcons}
             href="https://www.instagram.com/fonseecoficial/"
             title="Instagram"
+            target="_blank" rel="noopener noreferrer"
           >
             {" "}
             <i class="fab fa-instagram"></i>
@@ -57,6 +58,7 @@ function Banner() {
             style={styleIcons}
             href="https://open.spotify.com/artist/4Ycr4rT2v2QOPlNL5G8dIV?si=CA1i_psgQQiQgxR_eMj8ag"
             title="Spotify"
+            target="_blank" rel="noopener noreferrer"
           >
             {" "}
             <i class="fab fa-spotify"></i>{" "}
@@ -65,6 +67,7 @@ function Banner() {
             style={styleIcons}
             href="https://www.facebook.com/fonseecoficial"
             title="Facebook"
+            target="_blank" rel="noopener noreferrer"
           >
             {" "}
             <i class="fab fa-facebook"></i>
@@ -73,6 +76,7 @@ function Banner() {
             style={styleIcons}
             href="https://www.youtube.com/channel/UCAZa5Z2e2-8Z6LqOTskr-Qw/featured"
             title="Youtube"
+            target="_blank" rel="noopener noreferrer"
           >
             {" "}
             <i class="fab fa-youtube"></i>{" "}
