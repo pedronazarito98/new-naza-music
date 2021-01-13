@@ -1,110 +1,126 @@
-.FirstTitle{
-    font-size: 3.5rem;
-    color: rgb(190, 6, 6);
-    text-transform: uppercase;
-    letter-spacing: 2.5px;
+.FirstTitle {
+  font-size: 3.5rem;
+  color: rgb(190, 6, 6);
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
 }
-.home{
-    padding-top: 3rem;
+.home {
+  padding-top: 3rem;
 }
-.linhaTexto{
-    border-top: 3px solid rgb(190, 6, 6);
-    height: 2px;
-    margin: 1rem auto 3rem;
-    width: 30rem;
+.linhaTexto {
+  border-top: 3px solid rgb(190, 6, 6);
+  height: 2px;
+  margin: 1rem auto 3rem;
+  width: 30rem;
 }
 .TextoCentral {
-    color: rgba(0, 0, 0, 0.753);
-    margin: 0 auto 3rem;
-    max-width: 50rem;
-    text-align: center;
-    font-size: 2.5rem;
+  color: rgba(0, 0, 0, 0.753);
+  margin: 0 auto 3rem;
+  max-width: 50rem;
+  text-align: center;
+  font-size: 38px;
 }
-.TextoBanner{
-    background-color: rgb(190, 6, 6);
-    color: #777;
-    display: block;
-    margin-bottom: 3rem;
-    outline: 0;
+.TextoBanner {
+  background-color: rgb(190, 6, 6);
+  color: #777;
+  display: block;
+  margin-bottom: 3rem;
+  outline: 0;
 }
 .TextoBanner h1 {
-    color: white;
-    font-size: 20px;
-    text-transform: uppercase;
-    padding-top: 15px;
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-top: 15px;
 }
 .TextoBanner p {
-    color: white;
-    font-size: 20px;
-    text-transform: uppercase;
-    padding-top: 15px;
-    margin-top: 5px;
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-top: 15px;
+  margin-top: 5px;
 }
 
 /* Titles de Section*/
-.SectionTitle{
-    background-color: rgb(194, 192, 192);
-    overflow: hidden;
-    padding-top: 2.3%;
-    text-align: center;
-    height: 7rem;
-    width: auto;
-    text-align: center;
+.SectionTitle {
+  background-color: rgb(194, 192, 192);
+  overflow: hidden;
+  padding-top: 2.3%;
+  text-align: center;
+  height: 7rem;
+  width: auto;
+  text-align: center;
 }
-.SectionTitle h1{
-    font-size: 2.5rem;
-    letter-spacing: 0.4rem;
-    color: rgb(190, 6, 6);
-    line-height: 1.333;
-    margin: 0 auto;
-    text-transform: uppercase;
+.SectionTitle h1 {
+  font-size: 2.5rem;
+  letter-spacing: 0.4rem;
+  color: rgb(190, 6, 6);
+  line-height: 1.333;
+  margin: 0 auto;
+  text-transform: uppercase;
 }
-.SectionTitleNews{
-    
-    overflow: hidden;
-    padding-top: 2rem;
-    text-align: center;
-    height: 7rem;
-    width: auto;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 2rem;
+.SectionTitleNews {
+  overflow: hidden;
+  padding-top: 2rem;
+  text-align: center;
+  height: 7rem;
+  width: auto;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2rem;
 }
-.SectionTitulo{
-    height: 25px;
-    background-color: #777;
-    text-align: center;
-    height: 5rem;
-    color: white;
-    text-transform: uppercase;
-    padding-top: 30px;
-    font-size: 1rem;
+.SectionTitulo {
+  height: 25px;
+  background-color: #777;
+  text-align: center;
+  height: 5rem;
+  color: white;
+  text-transform: uppercase;
+  padding-top: 30px;
+  font-size: 1rem;
 }
-.linhaText{
-    border-top: 3px solid rgb(190, 6, 6);
-    height: 2px;
-    margin: 5px auto 3rem;
-    width: 10rem;
+.linhaText {
+  border-top: 3px solid rgb(190, 6, 6);
+  height: 2px;
+  margin: 5px auto 3rem;
+  width: 10rem;
 }
 
 /* Style da SectionCards*/
 /* CARDS NEWS na Home pag*/
-.cards{
-    max-width: 250px;
-    max-height: 30%;
-    height: 100;
-    width: 100;
+.cards {
+  max-width: 250px;
+  max-height: 30%;
+  height: 100;
+  width: 100;
 }
-.btCard{
-    margin-top: 10%;
-    margin-left: 25%;
+.btCard {
+  margin-top: 10%;
+  margin-left: 25%;
 }
-.cards-home{
-    display: flex;
-    justify-content: center;
-    margin: 2px;
+.cards-home {
+  display: flex;
+  justify-content: center;
+  margin: 2px;
 }
-.card-body{
-    display: block;
-    height: 50%;
+.card-body {
+  display: block;
+  height: 50%;
+}
+
+.ContainerListaImagens {
+  display: flex;
+  align-content: center;
+  flex: 0 1 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* max-width: 58rem; */
+  list-style: none;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+a:hover {
+  color: red;
 }

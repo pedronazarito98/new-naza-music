@@ -1,11 +1,12 @@
 import React, { useState } from "react";
-import { Figure, Container } from "react-bootstrap";
+import { Figure } from "react-bootstrap";
 import ReactCardFlip from "react-card-flip";
-import GeorgeImg1 from '../images/Album-George.jpeg';
-import GeorgeImg2 from '../images/TropicalRomance.jpeg';
-const StyleFigureFront = {
+import GeorgeImg1 from "../images/Album-George.jpeg";
+import GeorgeImg2 from "../images/TropicalRomance.jpeg";
+
+const StyleFigure = {
   width: 171,
-  height: 142,
+  height: 171,
 };
 
 const styleIcons = {
@@ -27,12 +28,17 @@ const CardGeorge = () => {
 
   return (
     <>
-      <Container style={{ display: "flex", justifyContent: "space-between" }}>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-evenly",
+        }}
+      >
         <ReactCardFlip isFlipped={isFlipped} flipDirection="vertical">
           <div>
             <Figure
               onClick={handleClick}
-              style={StyleFigureFront}
+              style={StyleFigure}
               className="cardFront"
               cardZIndex
             >
@@ -40,43 +46,53 @@ const CardGeorge = () => {
             </Figure>
           </div>
           <div>
-            <Figure onClick={handleClick} className="cardBack">
-            <a
-                style={styleIcons}
-                href="open.spotify.com/artist/0tiWlOYVWYzczJejHW4JRV"
-                title="Spotify"
-                target="_blank" rel="noopener noreferrer"
-              >
-                {" "}
-                <i class="fab fa-spotify"></i>{" "}
-              </a>
-              <a
-                style={styleIcons}
-                href="https://open.spotify.com/artist/4Ycr4rT2v2QOPlNL5G8dIV?si=CA1i_psgQQiQgxR_eMj8ag"
-                title="Youtube"
-                target="_blank" rel="noopener noreferrer"
-              >
-                {" "}
-                <i class="fab fa-youtube"></i>{" "}
-              </a>
-              <a
-                style={styleIcons}
-                href="https://www.deezer.com/br/artist/12250312?utm_campaign=clipboard-generic&utm_source=user_sharing&utm_medium=desktop&utm_content=album-132171152"
-                title="Deezer"
-                target="_blank" rel="noopener noreferrer"
-              >
-                {" "}
-                <i class="fab fa-deezer"></i>{" "}
-              </a>
-              <a
-                style={styleIcons}
-                href="https://music.apple.com/br/artist/george-arrunateghi/912494498"
-                title="Apple Music"
-                target="_blank" rel="noopener noreferrer"
-              >
-                {" "}
-                <i class="fab fa-apple"></i>{" "}
-              </a>
+            <Figure
+              style={StyleFigure}
+              onClick={handleClick}
+              className="cardBack"
+            >
+              <ul style={{ width: "30%", marginTop: 20 }}>
+                <a
+                  style={styleIcons}
+                  href="open.spotify.com/artist/0tiWlOYVWYzczJejHW4JRV"
+                  title="Spotify"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <i class="fab fa-spotify"></i>{" "}
+                </a>
+                <a
+                  style={styleIcons}
+                  href="https://open.spotify.com/artist/4Ycr4rT2v2QOPlNL5G8dIV?si=CA1i_psgQQiQgxR_eMj8ag"
+                  title="Youtube"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <i class="fab fa-youtube"></i>{" "}
+                </a>
+                <a
+                  style={styleIcons}
+                  href="https://www.deezer.com/br/artist/12250312?utm_campaign=clipboard-generic&utm_source=user_sharing&utm_medium=desktop&utm_content=album-132171152"
+                  title="Deezer"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <i class="fab fa-deezer"></i>{" "}
+                </a>
+                <a
+                  style={styleIcons}
+                  href="https://music.apple.com/br/artist/george-arrunateghi/912494498"
+                  title="Apple Music"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <i class="fab fa-apple"></i>{" "}
+                </a>
+              </ul>
             </Figure>
           </div>
         </ReactCardFlip>
@@ -84,7 +100,7 @@ const CardGeorge = () => {
           <div>
             <Figure
               onClick={handleClick}
-              style={StyleFigureFront}
+              style={StyleFigure}
               className="cardFront"
               cardZIndex
             >
@@ -92,47 +108,57 @@ const CardGeorge = () => {
             </Figure>
           </div>
           <div>
-            <Figure onClick={handleClick} className="cardBack">
-              <a
-                style={styleIcons}
-                href="https://open.spotify.com/artist/4Ycr4rT2v2QOPlNL5G8dIV?si=CA1i_psgQQiQgxR_eMj8ag"
-                title="Spotify"
-                target="_blank" rel="noopener noreferrer"
-              >
-                {" "}
-                <i class="fab fa-spotify"></i>{" "}
-              </a>
-              <a
-                style={styleIcons}
-                href="https://open.spotify.com/artist/4Ycr4rT2v2QOPlNL5G8dIV?si=CA1i_psgQQiQgxR_eMj8ag"
-                title="Youtube"
-                target="_blank" rel="noopener noreferrer"
-              >
-                {" "}
-                <i class="fab fa-youtube"></i>{" "}
-              </a>
-              <a
-                style={styleIcons}
-                href="https://www.deezer.com/br/artist/12250312?utm_campaign=clipboard-generic&utm_source=user_sharing&utm_medium=desktop&utm_content=album-132171152"
-                title="Deezer"
-                target="_blank" rel="noopener noreferrer"
-              >
-                {" "}
-                <i class="fab fa-deezer"></i>{" "}
-              </a>
-              <a
-                style={styleIcons}
-                href="https://music.apple.com/br/artist/george-arrunateghi/912494498"
-                title="Apple Music"
-                target="_blank" rel="noopener noreferrer"
-              >
-                {" "}
-                <i class="fab fa-apple"></i>{" "}
-              </a>
+            <Figure
+              style={StyleFigure}
+              onClick={handleClick}
+              className="cardBack"
+            >
+              <ul style={{ width: "30%", marginTop: 20 }}>
+                <a
+                  style={styleIcons}
+                  href="open.spotify.com/artist/0tiWlOYVWYzczJejHW4JRV"
+                  title="Spotify"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <i class="fab fa-spotify"></i>{" "}
+                </a>
+                <a
+                  style={styleIcons}
+                  href="https://open.spotify.com/artist/4Ycr4rT2v2QOPlNL5G8dIV?si=CA1i_psgQQiQgxR_eMj8ag"
+                  title="Youtube"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <i class="fab fa-youtube"></i>{" "}
+                </a>
+                <a
+                  style={styleIcons}
+                  href="https://www.deezer.com/br/artist/12250312?utm_campaign=clipboard-generic&utm_source=user_sharing&utm_medium=desktop&utm_content=album-132171152"
+                  title="Deezer"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <i class="fab fa-deezer"></i>{" "}
+                </a>
+                <a
+                  style={styleIcons}
+                  href="https://music.apple.com/br/artist/george-arrunateghi/912494498"
+                  title="Apple Music"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <i class="fab fa-apple"></i>{" "}
+                </a>
+              </ul>
             </Figure>
           </div>
         </ReactCardFlip>
-      </Container>
+      </div>
     </>
   );
 };

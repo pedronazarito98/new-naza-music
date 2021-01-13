@@ -1,16 +1,9 @@
-.rounded-circle{
-    width: 170px;
-    height: 156px;
+.rounded-circle {
+  width: 170px;
+  height: 156px;
 }
 
-.img-circle{
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items: center;
-    margin-left: center;
-}
-.icones-social-media{
-    display: flex;
-    justify-items: center;
+.icones-social-media {
+  display: flex;
+  justify-items: center;
 }

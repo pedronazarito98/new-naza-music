@@ -1,76 +1,76 @@
-.main-footer{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1rem;
-    float: left;
-    color: rgba(136, 136, 136, 0.507);
-    background-color: rgba(8, 8, 8, 0.938) ;
-    padding: 20px 0;
-    padding-top: 10px;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    box-sizing: inherit;
+.main-footer {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  float: left;
+  color: rgba(136, 136, 136, 0.507);
+  background-color: rgba(8, 8, 8, 0.938);
+  padding: 20px 0;
+  padding-top: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  box-sizing: inherit;
 }
-.list-unstyled{
-    justify-items: right;
+.list-unstyled {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
 }
-.icones{
-    float: right;
-    padding: 10px;
-    padding-right: 53px;
-    padding-top: 20px;
+.icones {
+  float: right;
+  padding: 10px;
+  padding-right: 53px;
+  padding-top: 20px;
 }
-.img-footer{
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    width: 300px;
-    height: 150px;
-}
-
-
-
-.colunaCenter{
-    padding-right: 10%;
-    text-transform: uppercase;
-    font-size: 20px;
-    
-}
-.coluna1{
-    color: white;
-    padding-top: 5%;
-    padding-left: 15%;
-}
-.line{
-    color: white;
+.img-footer {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 300px;
+  height: 150px;
 }
 
-.coluna3{
-    color: white;
-    padding-top: 4%;
+.colunaCenter {
+  padding-right: 10%;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.coluna1 {
+  color: white;
+  padding-top: 5%;
+  padding-left: 15%;
+}
+.line {
+  color: white;
+}
+
+.coluna3 {
+  color: white;
+  padding-top: 4%;
 }
 
 .sub-footer {
-    text-align: center;
-    font-size: 14px;
-    color: rgba(136, 136, 136, 0.507);
-    display: block;
-    margin-left: 30%;
+  text-align: center;
+  font-size: 14px;
+  color: rgba(136, 136, 136, 0.507);
+  display: block;
+  margin-left: 30%;
 }
 .links a {
-    display: flex;
-    justify-content: flex-start ;
-    color: white;
-    text-decoration: none;
+  display: flex;
+  justify-content: flex-start;
+  color: white;
+  text-decoration: none;
 }
 
-.sub-title-footer h4{
-    color: white;
-    display: flex;
-    justify-content: center;
+.sub-title-footer h4 {
+  color: white;
+  display: flex;
+  justify-content: center;
 }
-.sub-title-footer h3{
-    color: white;
-    display: flex;
-    justify-content: center;
+.sub-title-footer h3 {
+  color: white;
+  display: flex;
+  justify-content: center;
 }

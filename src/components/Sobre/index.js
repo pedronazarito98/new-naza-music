@@ -8,7 +8,6 @@ const styles = {
   textAlign: "center",
 };
 
-
 const SobreNos = () => {
   return (
     <React.Fragment>

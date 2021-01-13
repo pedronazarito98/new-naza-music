@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <React.Fragment>
       <Container fluid={true}>
-        <Navbar bg="transparent" expand="sm" className="shadow-sm">
+        <Navbar bg="transparent" expand="md" className="shadow-sm">
           <Navbar.Brand href="/">
             <img className="mx-auto" src="./Logomarca_NAZA1.png" alt="" />
           </Navbar.Brand>
@@ -20,21 +20,22 @@ const Header = () => {
               <Nav.Link href="#/sobre">Sobre</Nav.Link>
               <Nav.Link href="#/contato">Contato</Nav.Link>
               <NavDropdown title="Artistas" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#/pageFonseec">
-                  {" "}
-                  Fonseec{" "}
+                <NavDropdown.Item href="#/Fonseec"> Fonseec </NavDropdown.Item>
+                <NavDropdown.Item href="#/George">
+                  George Arrunateghi
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#/pageGeorge">
-                  {" "}
-                  George Arrunateghi{" "}
+                <NavDropdown.Item href="#/Murilo">
+                  Murilo Santiago
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#/pageMurilo">
-                  {" "}
-                  Murilo Santiago{" "}
+                <NavDropdown.Item href="#/Tadeu">Tadeu Franco</NavDropdown.Item>
+                <NavDropdown.Item href="#/Alucinoise">
+                  Alucinoise
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#/pageTadeu">
-                  {" "}
-                  Tadeu Franco{" "}
+                <NavDropdown.Item href="#/Marcio-Nago">
+                  Marcio Nagô
+                </NavDropdown.Item>
+                <NavDropdown.Item href="#/Bruno-Cupertino">
+                  Bruno Cupertino
                 </NavDropdown.Item>
               </NavDropdown>
             </Nav>

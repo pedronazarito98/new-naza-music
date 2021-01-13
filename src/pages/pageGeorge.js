@@ -98,7 +98,7 @@ const SectionGeorge = () => {
         </p>
       </div>
       <div
-        style={{ width: "auto", height: "300px", backgroundColor: "#dcdcdc" }}
+        style={{ width: "auto", height: "350px", backgroundColor: "#dcdcdc" }}
       >
         <h1
           style={{

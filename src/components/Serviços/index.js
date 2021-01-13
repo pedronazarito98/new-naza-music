@@ -1,20 +1,60 @@
 import React from "react";
-import { Container, Row, Col, Image } from "react-bootstrap";
+import { Paper, Grid } from "@material-ui/core";
+import Image from "material-ui-image";
 
+const Container = {
+  margin: 10,
+  display: "flex",
+  justifyContent: "center",
+  alignItems: "center",
+  flexDirection: "column",
+  // backgroundColor: "red",
+};
+const ContainerTexto = {
+  marginTop: "50px",
+  width: "100%",
+};
+const Title = {
+  fontSize: "24px",
+  textAlign: "center",
+};
+const Texto = {
+  padding: 25,
+  fontSize: "24px",
+  width: "100%",
+  textAlign: "center",
+};
+const StyleImagem = {
+  height: 300,
+  margin: 20,
+  maxWidth: "650px" /* Máximo da largura da imagem */,
+  width: " 100%",
+  maxHeight: "500px" /* Máximo da altura da imagem */,
+  minHeight: "auto",
+};
+
+const StylePaper = {
+  display: "flex",
+  justifyContent: "space-between",
+  margin: 20,
+  flexWrap: "wrap",
+  width: "100%",
+  minHeight: "350px",
+};
 
 const Service = () => {
   return (
-    <React.Fragment>
-      <div className="sectionServices">
-        <Container fluid={true}>
-          <Row id="producao">
-            <Col  className="list-image-Left">
-              <Image src="./01img_producao.png" fluid />
-            </Col>
-            <Col  className="list-text-Left">
-              <h4> 01/ </h4>
-              <h4> Produção Musical</h4>
-              <article>
+    <>
+      {/* Imagem a direita */}
+      <div style={Container}>
+        <Paper elevation={4} style={StylePaper}>
+          <Grid container spacing={4}>
+            <Grid item style={{ height: "350px" }}>
+              <img style={StyleImagem} src="./01img_producao.png" />
+            </Grid>
+            <Grid style={ContainerTexto} sm>
+              <h4 style={Title}> 01/ Produção Musical </h4>
+              <p style={Texto}>
                 A Naza Music atua em todas as etapas da produção musical, desde
                 o registro sonoro até a masterização. No nosso quadro de
                 colaboradores e parceiros estão profissionais de alto nível
@@ -23,14 +63,18 @@ const Service = () => {
                 dinâmico com estúdios de gravação. Com a Naza, você pode
                 realizar todo o processo de gravação, da escolha do estúdio ao
                 acabamento final do produto (CD/DVD ou outra mídia digital).
-              </article>
-            </Col>
-          </Row>
-          <Row id="divulgacao">
-            <Col className="list-text-Right">
-              <h4> 02/ </h4>
-              <h4> Divulgação </h4>
-              <article>
+              </p>
+            </Grid>
+          </Grid>
+        </Paper>
+      </div>
+      {/* Imagem a esquerda */}
+      <div style={Container}>
+        <Paper elevation={4} style={StylePaper}>
+          <Grid container spacing={4}>
+            <Grid style={ContainerTexto} md>
+              <h4 style={Title}> 02/ Divulgação </h4>
+              <p style={Texto}>
                 Para o artista que deseja maior visibilidade, a divulgação nas
                 emissoras de rádio é fundamental. Pesquisas apontam que, apesar
                 da presença evidente da internet, o rádio é um veículo
@@ -39,32 +83,40 @@ const Service = () => {
                 exposição do artista é segura, cativante, favorável e, assim,
                 com mais chances de fortalecer sua imagem e viabilizar seu
                 produto.
-              </article>
-            </Col>
-            <Col xs= {6} md={5} className="list-image-Right">
-              <Image src="./07img_radio.png" fluid />
-            </Col>
-          </Row>
-          <Row id="shows">
-            <Col xs= {6} md={5} className="list-image-Left">
-              <Image src="./05img_shows.png" fluid />
-            </Col>
-            <Col className="list-text-Left">
-              <h4> 03/ </h4>
-              <h4> Shows </h4>
-              <article>
+              </p>
+            </Grid>
+            <Grid item style={{ height: "350px" }}>
+              <img style={StyleImagem} src="./07img_radio.png" />
+            </Grid>
+          </Grid>
+        </Paper>
+      </div>
+      {/* Imagem a direita */}
+      <div style={Container}>
+        <Paper elevation={4} style={StylePaper}>
+          <Grid container spacing={4}>
+            <Grid item style={{ height: "350px" }}>
+              <img style={StyleImagem} src="./05img_shows.png" />
+            </Grid>
+            <Grid style={ContainerTexto} sm>
+              <h4 style={Title}> 03/ Shows </h4>
+              <p style={Texto}>
                 Oferecemos serviços diversos de entretenimento e marketing que
                 vão contribuir para destacá-lo no mercado e alavancar seus
                 negócios, como shows, palestras motivacionais e produção de
                 feiras e eventos.
-              </article>
-            </Col>
-          </Row>
-          <Row id="assessoria">
-            <Col  className="list-text-Right">
-              <h4> 04/ </h4>
-              <h4> Assessoria de Imprensa </h4>
-              <article>
+              </p>
+            </Grid>
+          </Grid>
+        </Paper>
+      </div>
+      {/* Imagem a esquerda */}
+      <div style={Container}>
+        <Paper elevation={4} style={StylePaper}>
+          <Grid container spacing={4}>
+            <Grid style={ContainerTexto} md>
+              <h4 style={Title}> 04/ Assessoria de Imprensa</h4>
+              <p style={Texto}>
                 Para assegurar um pleno desenvolvimento de carreira e o seu
                 reconhecimento pelo público e pela mídia, inovar e investir na
                 divulgação da imagem, da marca e do trabalho são ações
@@ -73,33 +125,42 @@ const Service = () => {
                 ações com o objetivo de destacar o cliente na mídia (jornais,
                 rádios, revistas e emissoras de televisão) e entre o público,
                 através das redes sociais
-              </article>
-            </Col>
-            <Col xs= {6} md={5} className="list-image-Right">
-              <Image src="./02img_assesoria.png" fluid/>
-            </Col>
-          </Row>
-          <Row id="distribuicao">
-            <Col xs= {6} md={5} className="list-image-Left">
-              <Image src="./05img_shows.png" fluid />
-            </Col>
-            <Col className="list-text-Left">
-              <h4> 05/ </h4>
-              <h4> Distribuição </h4>
-              <article>
+              </p>
+            </Grid>
+            <Grid item style={{ height: "350px" }}>
+              <img style={StyleImagem} src="./02img_assesoria.png" />
+            </Grid>
+          </Grid>
+        </Paper>
+      </div>
+      {/* Imagem a direita */}
+      <div style={Container}>
+        <Paper elevation={4} style={StylePaper}>
+          <Grid container spacing={4}>
+            <Grid item style={{ height: "350px" }}>
+              <img style={StyleImagem} src="./01img_producao.png" />
+            </Grid>
+
+            <Grid style={ContainerTexto} sm>
+              <h4 style={Title}> 05/ Distribuição </h4>
+              <p style={Texto}>
                 A Naza atua com distribuição de música e produtos audiovisuais
                 nos formatos físico e digital. Através deste serviço, seu disco
                 e seu DVD chegam às principais lojas especializadas do país e
                 sua música é disponibilizada em plataformas digitais que
                 alcançam diversos países.
-              </article>
-            </Col>
-          </Row>
-          <Row id="marketing">
-            <Col className="list-text-Right">
-              <h4> 06/ </h4>
-              <h4> Marketing Digital </h4>
-              <article>
+              </p>
+            </Grid>
+          </Grid>
+        </Paper>
+      </div>
+      {/* Imagem a esquerda */}
+      <div style={Container}>
+        <Paper elevation={4} style={StylePaper}>
+          <Grid container spacing={4}>
+            <Grid style={ContainerTexto} md>
+              <h4 style={Title}> 06/ Marketing Digital </h4>
+              <p style={Texto}>
                 O marketing digital é uma ferramenta fundamental para para a
                 divulgação de marcas e produtos. A Naza desenvolve estratégias
                 de marketing digital objetivas para a imediata conexão de sua
@@ -107,21 +168,25 @@ const Service = () => {
                 plataforma de divulgação são, entre outros, gerenciamento de
                 blog, marketing de conteúdo, e-mail marketing, anúncios
                 gráficos, marketing de vídeo, anúncios digitais pagos, banners,
-                anúncios para celular, analíticos e (???)
-              </article>
-            </Col>
-            <Col xs= {6} md={5} className="list-image-Right">
-              <Image src="./02img_assesoria.png" fluid />
-            </Col>
-          </Row>
-          <Row id="agenciamento">
-            <Col xs= {6} md={5} className="list-image-Left">
-              <Image src="./05img_shows.png" fluid/>
-            </Col>
-            <Col className="list-text-Left">
-              <h4> 07/ </h4>
-              <h4> Desenvolvimento de Artistas </h4>
-              <article>
+                anúncios para celular.
+              </p>
+            </Grid>
+            <Grid item style={{ height: "350px" }}>
+              <img style={StyleImagem} src="./02img_assesoria.png" />
+            </Grid>
+          </Grid>
+        </Paper>
+      </div>
+      {/* Imagem a direita */}
+      <div style={Container}>
+        <Paper elevation={4} style={StylePaper}>
+          <Grid container spacing={4}>
+            <Grid item style={{ height: "350px" }}>
+              <img style={StyleImagem} src="./05img_shows.png" />
+            </Grid>
+            <Grid style={ContainerTexto} sm>
+              <h4 style={Title}> 07/ Desenvolvimento de Artistas </h4>
+              <p style={Texto}>
                 Somos movidos pela arte e a paixão de seus artistas. Nosso
                 propósito é descobrir, desenvolver e empregar as melhores
                 estratégias para o artista atingir seu objetivo profissional e
@@ -129,12 +194,12 @@ const Service = () => {
                 profissionais especializados em gestão de carreira, assessoria
                 artística, produção musical e de shows, agenciamento,
                 representação, marketing, contratação e promoção de eventos.
-              </article>
-            </Col>
-          </Row>
-        </Container>
+              </p>
+            </Grid>
+          </Grid>
+        </Paper>
       </div>
-    </React.Fragment>
+    </>
   );
 };
 

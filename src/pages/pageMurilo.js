@@ -4,6 +4,8 @@ import { Image } from "react-bootstrap";
 import { Parallax } from "react-parallax";
 import MuriloImg from "../components/Artistas/images/murilo2.png";
 import CardMurilo from "../components/Artistas/Cards/CardMurilo";
+import MuriloCard from "../components/Artistas/images/murilo-card.jpg";
+
 const styles = {
   fontFamily: "sans-serif",
   textAlign: "center",
@@ -28,7 +30,7 @@ const styleTitle = {
   marginTop: "20px",
 };
 const image = MuriloImg;
-
+const imageC = MuriloCard;
 function Banner() {
   return (
     <div style={styles}>
@@ -36,7 +38,7 @@ function Banner() {
         <div style={{ height: 500 }}>
           <div style={insideStyles}>
             <Image
-              src={image}
+              src={imageC}
               alt="Murilo Santiago"
               roundedCircle
               className="img-circle"
@@ -94,7 +96,7 @@ function Banner() {
         </p>
       </div>
       <div
-        style={{ width: "auto", height: "300px", backgroundColor: "#dcdcdc" }}
+        style={{ width: "auto", height: "350px", backgroundColor: "#dcdcdc" }}
       >
         <h1
           style={{

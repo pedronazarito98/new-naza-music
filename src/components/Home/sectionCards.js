@@ -12,9 +12,11 @@ const SectionCards = () => {
               <Card className="cards" border="secondary">
                 <Card.Img variant="top" src="./muriloCard.png" />
                 <Card.Body>
-                  <Card.Title>Noticias</Card.Title>
+                  <Card.Title>Notícias</Card.Title>
                   <Card.Text>Texto teste</Card.Text>
-                  <ModalNews />
+                  <Button className="btCard" variant="outline-secondary">
+                    <a href="#/news"> Veja mais</a>
+                  </Button>
                 </Card.Body>
               </Card>
             </Col>
@@ -23,9 +25,11 @@ const SectionCards = () => {
               <Card className="cards" border="secondary">
                 <Card.Img variant="top" src="./muriloCard.png" />
                 <Card.Body>
-                  <Card.Title>Noticias</Card.Title>
+                  <Card.Title>Notícias</Card.Title>
                   <Card.Text>Texto teste</Card.Text>
-                  <ModalNews />
+                  <Button className="btCard" variant="outline-secondary">
+                    <a href="#/news"> Veja mais</a>
+                  </Button>
                 </Card.Body>
               </Card>
             </Col>
@@ -34,10 +38,23 @@ const SectionCards = () => {
               <Card className="cards" border="secondary">
                 <Card.Img variant="top" src="./muriloCard.png" />
                 <Card.Body>
-                  <Card.Title>Noticias</Card.Title>
+                  <Card.Title>Notícias</Card.Title>
                   <Card.Text>Texto teste.</Card.Text>
                   <Button className="btCard" variant="outline-secondary">
-                    <a href="/news"> Veja mais</a>
+                    <a href="#/news"> Veja mais</a>
+                  </Button>
+                </Card.Body>
+              </Card>
+            </Col>
+
+            <Col sm>
+              <Card className="cards" border="secondary">
+                <Card.Img variant="top" src="./muriloCard.png" />
+                <Card.Body>
+                  <Card.Title>Notícias</Card.Title>
+                  <Card.Text>Texto teste</Card.Text>
+                  <Button className="btCard" variant="outline-secondary">
+                    <a href="#/news"> Veja mais</a>
                   </Button>{" "}
                 </Card.Body>
               </Card>
@@ -47,23 +64,10 @@ const SectionCards = () => {
               <Card className="cards" border="secondary">
                 <Card.Img variant="top" src="./muriloCard.png" />
                 <Card.Body>
-                  <Card.Title>Noticias</Card.Title>
+                  <Card.Title>Notícias</Card.Title>
                   <Card.Text>Texto teste</Card.Text>
                   <Button className="btCard" variant="outline-secondary">
-                    <a href="/news"> Veja mais</a>
-                  </Button>{" "}
-                </Card.Body>
-              </Card>
-            </Col>
-
-            <Col sm>
-              <Card className="cards" border="secondary">
-                <Card.Img variant="top" src="./muriloCard.png" />
-                <Card.Body>
-                  <Card.Title>Noticias</Card.Title>
-                  <Card.Text>Texto teste</Card.Text>
-                  <Button className="btCard" variant="outline-secondary">
-                    <a href="/news"> Veja mais</a>
+                    <a href="#/news"> Veja mais</a>
                   </Button>{" "}
                 </Card.Body>
               </Card>
