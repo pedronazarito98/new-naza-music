@@ -1,81 +1,20 @@
-import React from "react";
-import Button from "react-bootstrap/Button";
-import { Row, Col, Container, Card, CardDeck } from "react-bootstrap";
-import ModalNews from "../Modal/Modal";
+import React, { useState } from "react";
+import ImageC from "../Artistas/images/bruno-card.jpg";
+import NewCard from "../Card/CardNew";
 const SectionCards = () => {
   return (
-    <React.Fragment>
-      <Container fluid="true" className="cards-home">
-        <Row className="cards-home">
-          <CardDeck>
-            <Col sm>
-              <Card className="cards" border="secondary">
-                <Card.Img variant="top" src="./muriloCard.png" />
-                <Card.Body>
-                  <Card.Title>Notícias</Card.Title>
-                  <Card.Text>Texto teste</Card.Text>
-                  <Button className="btCard" variant="outline-secondary">
-                    <a href="#/news"> Veja mais</a>
-                  </Button>
-                </Card.Body>
-              </Card>
-            </Col>
-
-            <Col sm>
-              <Card className="cards" border="secondary">
-                <Card.Img variant="top" src="./muriloCard.png" />
-                <Card.Body>
-                  <Card.Title>Notícias</Card.Title>
-                  <Card.Text>Texto teste</Card.Text>
-                  <Button className="btCard" variant="outline-secondary">
-                    <a href="#/news"> Veja mais</a>
-                  </Button>
-                </Card.Body>
-              </Card>
-            </Col>
-
-            <Col sm>
-              <Card className="cards" border="secondary">
-                <Card.Img variant="top" src="./muriloCard.png" />
-                <Card.Body>
-                  <Card.Title>Notícias</Card.Title>
-                  <Card.Text>Texto teste.</Card.Text>
-                  <Button className="btCard" variant="outline-secondary">
-                    <a href="#/news"> Veja mais</a>
-                  </Button>
-                </Card.Body>
-              </Card>
-            </Col>
-
-            <Col sm>
-              <Card className="cards" border="secondary">
-                <Card.Img variant="top" src="./muriloCard.png" />
-                <Card.Body>
-                  <Card.Title>Notícias</Card.Title>
-                  <Card.Text>Texto teste</Card.Text>
-                  <Button className="btCard" variant="outline-secondary">
-                    <a href="#/news"> Veja mais</a>
-                  </Button>{" "}
-                </Card.Body>
-              </Card>
-            </Col>
-
-            <Col sm>
-              <Card className="cards" border="secondary">
-                <Card.Img variant="top" src="./muriloCard.png" />
-                <Card.Body>
-                  <Card.Title>Notícias</Card.Title>
-                  <Card.Text>Texto teste</Card.Text>
-                  <Button className="btCard" variant="outline-secondary">
-                    <a href="#/news"> Veja mais</a>
-                  </Button>{" "}
-                </Card.Body>
-              </Card>
-            </Col>
-          </CardDeck>
-        </Row>
-      </Container>
-    </React.Fragment>
+    <>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "space-between",
+          margin: 10,
+        }}
+      >
+        <NewCard title="Noticias" image={ImageC} text="oi" />
+      </div>
+    </>
   );
 };
 

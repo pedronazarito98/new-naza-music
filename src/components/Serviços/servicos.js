@@ -3,9 +3,8 @@ import { Container, Row, Col, Image } from "react-bootstrap";
 
 // const Service = () => {
   return (
-    <React.Fragment>
+    <>
       <div className="sectionServices">
-        <Container fluid={true}>
           <Row id="producao">
             <Col className="list-image-Left">
               <Image src="./01img_producao.png" fluid />
@@ -131,8 +130,7 @@ import { Container, Row, Col, Image } from "react-bootstrap";
               </article>
             </Col>
           </Row>
-        </Container>
       </div>
-    </React.Fragment>
+    </>
   );
 };

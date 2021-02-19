@@ -1,0 +1,92 @@
+.icones-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1200px;
+  height: 600px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  .content-icon {
+    display: flex;
+    margin: 0 auto;
+    height: 300px;
+    flex-direction: row;
+  }
+  .content-icon2 {
+    display: flex;
+    margin: 0 auto;
+    height: 300px;
+    flex-direction: row;
+  }
+}
+
+.icon-card {
+  border-radius: 10px;
+
+  margin: 25px;
+  width: 100%;
+  height: 234px;
+  max-width: 200px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 5px 12px 0px rgb(15 15 15 / 20%);
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.icon-container {
+  background-color: #6d0101;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:hover {
+    background-color: rgba(24, 19, 19, 0.761);
+  }
+  .icon {
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    &:hover {
+      color: rgba(24, 19, 19, 0.761);
+    }
+  }
+}
+
+.text-icon {
+  width: 100%;
+  max-width: 190px;
+  height: 150px;
+  margin: 5px auto;
+  padding: 15px;
+  .title-icon {
+    color: #000;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    &:hover {
+      color: #6d0101;
+    }
+  }
+  .subTitle-icon {
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 15px;
+    width: 150px;
+    height: 55px;
+    border-radius: 20px;
+    padding: 5px;
+    &:hover {
+      color: #6d0101;
+      box-shadow: 2px 5px 12px 0px rgb(15 15 15 / 20%);
+    }
+  }
+}

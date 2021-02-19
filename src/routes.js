@@ -12,15 +12,15 @@ import Sobre from "./pages/sobre";
 import SectionGeorge from "./pages/pageGeorge";
 import SectionTadeu from "./pages/pageTadeu";
 import SectionMurilo from "./pages/pageMurilo";
-
 import SectionAluci from "./pages/pageAlucinoise";
 import SectionNago from "./pages/pageNago";
 import SectionBruno from "./pages/pageBruno";
-
+import HomeNew from "./pages/PagInicial";
 export default (props) => (
   <HashRouter>
     <Switch>
       <Route exact path="/" component={Home} />
+      {/* <Route exact path="/" component={HomeNew} /> */}
       <Route exact path="/news" component={News} />
       <Route exact path="/shows" component={Shows} />
       <Route exact path="/artistas" component={Artistas} />

@@ -45,7 +45,7 @@ const SectionGeorge = () => {
                 className="img-circle"
               />
               <h1 style={styleTitle}> George </h1>
-              <p style={{ color: "#fff", fontSize: "20px" }}> Rapper </p>
+              <p style={{ color: "#fff", fontSize: "20px" }}> Cantor </p>
               <ul style={{ display: "flex", justifyContent: "center" }}>
                 <a
                   style={styleIcons}

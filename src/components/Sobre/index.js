@@ -13,12 +13,14 @@ const SobreNos = () => {
     <React.Fragment>
       <Container fluid={true}>
         <div style={styles}>
-          <Parallax bgImage={imgSobre} blur={{ min: 1, max: 2 }}>
-            <div style={{ height: 600 }}>
-              <div className="slider--text">
-                <h1>Sobre Naza </h1>
-                <hr className="linhaText" />
-              </div>
+          <Parallax
+            bgImage={imgSobre}
+            style={{ height: "600px" }}
+            blur={{ min: 1, max: 2 }}
+          >
+            <div className="slider--text">
+              <h1>Sobre Naza </h1>
+              <hr className="linhaText" />
             </div>
           </Parallax>
         </div>

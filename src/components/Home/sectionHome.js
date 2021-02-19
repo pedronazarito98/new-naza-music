@@ -1,25 +1,19 @@
 import React from "react";
-
-const SectionHome = () => {
+import "./styles.css";
+function sectionHome() {
   return (
-    <React.Fragment>
-      <section className="home">
-        <header className="section-indent text-center">
-          <h1 className="FirstTitle">Naza Music </h1>
-          <h1 className="FirstTitle">Música em movimento</h1>
-          <hr className="linhaTexto" />
-          <p className=" TextoCentral">
-            A META DA NAZA MUSIC É MAXIMIZAR O POTENCIAL DE CADA CLIENTE E
-            CONTRIBUIR PARA QUE O RETORNO DO TRABALHO SEJA LUCRATIVO.
-          </p>
-        </header>
-        <div className="SectionTitle">
-          <h1>news</h1>
-          <hr className="linhaText" />
-        </div>
-      </section>
-    </React.Fragment>
+    <div className="containerr">
+      <div className="content">
+        <h1>NAZA</h1>
+        <h1>MÚSICA EM MOVIMENTO</h1>
+        <hr className="linhaTexto" />
+        <p>
+          A META DA NAZA MUSIC É MAXIMIZAR O POTENCIAL DE CADA CLIENTE E
+          CONTRIBUIR PARA QUE O RETORNO DO TRABALHO SEJA LUCRATIVO!
+        </p>
+      </div>
+    </div>
   );
-};
+}
 
-export default SectionHome;
+export default sectionHome;

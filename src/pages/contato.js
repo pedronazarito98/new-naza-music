@@ -27,11 +27,6 @@ const Contato = () => {
   return (
     <React.Fragment>
       <Container fluid={true}>
-        <div className="stack">
-          <span>O</span>
-          <span>o</span>
-        </div>
-
         <div className="contact">
           <h2> Naza Music </h2>
           <p>
