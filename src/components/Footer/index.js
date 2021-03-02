@@ -19,7 +19,7 @@ const Footer = () => {
           </Col>
           {/*Coluna 2*/}
           <Col sm className="sub-title-footer">
-            <h3> Explore a Naza Music </h3>
+            <p>Explore a Naza Music</p>
             <ul className="list-unstyled">
               <img
                 className="img-footer"
