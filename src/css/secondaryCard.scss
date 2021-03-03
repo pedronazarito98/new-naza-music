@@ -1,22 +1,65 @@
-.secondary-container {
-  margin: 0 auto;
-  border: 1px solid #1a1a1a;
-  width: 100%;
-  height: 350px;
-}
-
+$primary-color: #6d0101;
 .secondary-card {
-  border: 2px solid red;
+  border-radius: 16px 16px 5px 5px;
   width: 100%;
   max-width: 200px;
-  height: 250px;
-  margin: 0 auto;
+  height: 390px;
+  margin: 10px;
+  background-color: rgba(202, 199, 199, 0.255);
+}
+
+.container-cardNews {
+  display: flex;
+  margin: 10px auto;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 .secondary-img {
-  max-width: 200px;
-  height: 100px;
+  flex: 1 1 320px;
   img {
     width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+}
+
+.secondary-conteudo {
+  padding: 10px;
+  width: 100%;
+
+  h1 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #565360;
+    margin: 5px;
+  }
+  h2 {
+    font-size: 18px;
+    color: #908e9b;
+    padding: 5px;
+  }
+}
+
+.botao-news {
+  // padding: 10px;
+  background: $primary-color;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  &:hover {
+    background-color: rgba(24, 19, 19, 0.761);
+  }
+}
+
+.texto-conteudo {
+  p {
+    font-size: 20px;
   }
 }

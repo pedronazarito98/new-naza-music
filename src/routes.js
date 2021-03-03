@@ -15,6 +15,10 @@ import SectionMurilo from "./pages/pageMurilo";
 import SectionAluci from "./pages/pageAlucinoise";
 import SectionNago from "./pages/pageNago";
 import SectionBruno from "./pages/pageBruno";
+import SectionHans from "./pages/pageHans";
+import SectionLuToledo from "./pages/pageLuToledo";
+import SectionMaycon from "./pages/pageMaycon";
+import SectionHausen from "./pages/pageHausen";
 import HomeNew from "./pages/PagInicial";
 export default (props) => (
   <HashRouter>
@@ -32,6 +36,10 @@ export default (props) => (
       <Route exact path="/Tadeu" component={SectionTadeu} />
       <Route exact path="/Murilo" component={SectionMurilo} />
       <Route exact path="/Alucinoise" component={SectionAluci} />
+      <Route exact path="/Hans" component={SectionHans} />
+      <Route exact path="/Lu-Toledo" component={SectionLuToledo} />
+      <Route exact path="/Maycon-Mendes" component={SectionMaycon} />
+      <Route exact path="/Hausen" component={SectionHausen} />
       <Route exact path="/Marcio-Nago" component={SectionNago} />
       <Route exact path="/Bruno-Cupertino" component={SectionBruno} />
     </Switch>
