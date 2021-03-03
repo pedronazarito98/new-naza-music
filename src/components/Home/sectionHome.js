@@ -4,9 +4,9 @@ function sectionHome() {
   return (
     <div className="containerr">
       <div className="content">
-        <h1>NAZA</h1>
-        <h1>MÚSICA EM MOVIMENTO</h1>
-        <hr className="linhaTexto" />
+        <h1>NAZA <br/>
+        MÚSICA EM MOVIMENTO</h1>
+        
         <p>
           A META DA NAZA MUSIC É MAXIMIZAR O POTENCIAL DE CADA CLIENTE E
           CONTRIBUIR PARA QUE O RETORNO DO TRABALHO SEJA LUCRATIVO!
