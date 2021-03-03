@@ -22,10 +22,11 @@
 .content h1 {
   color: rgb(190, 6, 6);
   font-size: 3.5rem;
-  /* background-color: blue; */
+  border-bottom:3px solid rgb(190, 6, 6) ;
   width: 100%;
   max-width: 800px;
   text-align: center;
+  padding-bottom: 30px
 }
 .content p {
   font-size: 2rem;
@@ -37,10 +38,7 @@
   /* background-color: yellow; */
 }
 
-.linhaTexto {
-  border-top: 2px solid rgb(190, 6, 6);
-  width: 400px;
-}
+
 
 @media (max-width: 750px) {
   .containerr {

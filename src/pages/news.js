@@ -2,11 +2,13 @@ import React from "react";
 import "../css/news.scss";
 import "../css/secondaryCard.scss";
 import Img from "../components/Artistas/images/murilo2.png";
+
 function News(props) {
   const {
     tituloModal,
     linkSpotify,
     linkFacebook,
+    linkYoutube,
     conteudoModal1,
     conteudoModal2,
     conteudoModal3,
@@ -26,12 +28,12 @@ function News(props) {
                 <span className="caixa-botao">Facebook</span>
               </a>
             </div>
-            <div className="box twitter-share">
-              <a href="#" className="link-botao" target="_blank">
+            <div className="box youtube-share">
+              <a href={linkYoutube} className="link-botao" target="_blank">
                 <span className="icone-botao direita">
-                  <i class="fab fa-twitter"></i>
+                  <i class="fab fa-youtube"></i>
                 </span>
-                <span className="caixa-botao">Twitter</span>
+                <span className="caixa-botao">Youtube</span>
               </a>
             </div>
             <div className="box spotify-share">

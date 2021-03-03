@@ -78,7 +78,7 @@ const CardTadeu = () => {
                 </a>
                 <a
                   style={styleIcons}
-                  href="https://music.apple.com/br/artist/george-arrunateghi/912494498"
+                  href="https://music.apple.com/br/artist/tadeu-franco/172283931"
                   title="Apple Music"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -140,7 +140,7 @@ const CardTadeu = () => {
                 </a>
                 <a
                   style={styleIcons}
-                  href="https://music.apple.com/br/artist/george-arrunateghi/912494498"
+                  href="https://music.apple.com/br/artist/tadeu-franco/172283931"
                   title="Apple Music"
                   target="_blank"
                   rel="noopener noreferrer"

@@ -1,12 +1,18 @@
 import React from "react";
 import Card1 from "../components/Serviços/Cards/CardServicos1";
 import Card2 from "../components/Serviços/Cards/CardServicos2";
+import Image4 from  '../assets/divulga.png'
+import Image2 from  '../assets/assessoria.png'
+import Image3 from  '../assets/marketing.png'
+import Image from  '../assets/produM.png'
+import Image5 from  '../assets/distribui.png'
+import Image6 from  '../assets/desenvolvimento.png'
 const Serviços = () => {
   return (
     <>
       <div style={{ margin: "0px auto" }}>
         <Card1
-          imgUrl="./01img_producao.png"
+          imgUrl={Image}
           title="01/ Produção Musical"
           conteudo="A Naza Music atua em todas as etapas da produção musical, desde o
             registro sonoro até a masterização. No nosso quadro de colaboradores
@@ -18,7 +24,7 @@ const Serviços = () => {
             mídia digital)."
         />
         <Card2
-          imgUrl="./07img_radio.png"
+          imgUrl={Image4}
           title="02/ Divulgação"
           conteudo="Para o artista que deseja maior visibilidade, a divulgação nas
           emissoras de rádio é fundamental. Pesquisas apontam que, apesar
@@ -38,7 +44,7 @@ const Serviços = () => {
           feiras e eventos."
         />
         <Card2
-          imgUrl="./02img_assesoria.png"
+          imgUrl={Image2}
           title="04/ Assessoria de Imprensa"
           conteudo="Para assegurar um pleno desenvolvimento de carreira e o seu
           reconhecimento pelo público e pela mídia, inovar e investir na
@@ -50,7 +56,7 @@ const Serviços = () => {
           através das redes sociais"
         />
         <Card1
-          imgUrl="./01img_producao.png"
+          imgUrl={Image5}
           title="05/ Distribuição"
           conteudo="A Naza atua com distribuição de música e produtos audiovisuais
           nos formatos físico e digital. Através deste serviço, seu disco
@@ -59,7 +65,7 @@ const Serviços = () => {
           alcançam diversos países."
         />
         <Card2
-          imgUrl="./01img_producao.png"
+          imgUrl={Image3}
           title="06/ Marketing Digital"
           conteudo="O marketing digital é uma ferramenta fundamental para para a
           divulgação de marcas e produtos. A Naza desenvolve estratégias
@@ -71,7 +77,7 @@ const Serviços = () => {
           anúncios para celular, analíticos"
         />
         <Card1
-          imgUrl="./01img_producao.png"
+          imgUrl={Image6}
           title="07/ Desenvolvimento de Artistas"
           conteudo="Somos movidos pela arte e a paixão de seus artistas. Nosso
           propósito é descobrir, desenvolver e empregar as melhores

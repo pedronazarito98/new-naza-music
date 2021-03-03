@@ -48,7 +48,8 @@ const SectionBruno = () => {
             <ul style={{ display: "flex", justifyContent: "center" }}>
               <a
                 style={styleIcons}
-                href="https://www.instagram.com/murilosantiagocompositor/"
+                href="https://www.instagram.com/brunocupertino.oficial/?hl=pt-br"
+                target="_blank"
                 title="Instagram"
               >
                 {" "}
@@ -56,7 +57,8 @@ const SectionBruno = () => {
               </a>
               <a
                 style={styleIcons}
-                href="https://open.spotify.com/artist/6XHF5j783jbEMT3sM2q9Y7?si=6-EtNhSsR02yXvOFubSVBw"
+                href="https://open.spotify.com/artist/2RwBpMqLtAGEbdWWPgQ65Y"
+                target="_blank"
                 title="Spotify"
               >
                 {" "}
@@ -64,7 +66,8 @@ const SectionBruno = () => {
               </a>
               <a
                 style={styleIcons}
-                href="https://www.facebook.com/murilosantiagocompositor"
+                href="https://www.facebook.com/brunocupertino.oficial/"
+                target="_blank"
                 title="Facebook"
               >
                 {" "}
@@ -72,7 +75,8 @@ const SectionBruno = () => {
               </a>
               <a
                 style={styleIcons}
-                href="https://www.youtube.com/channel/UCOZcBp-ZjnQDo1tX5NGLwvw/featured"
+                href="https://www.youtube.com/channel/UCloHOFnyYRQfbb8BLgz0LPg"
+                target="_blank"
                 title="Youtube"
               >
                 {" "}

@@ -49,7 +49,8 @@ const SectionGeorge = () => {
               <ul style={{ display: "flex", justifyContent: "center" }}>
                 <a
                   style={styleIcons}
-                  href="https://www.instagram.com/George oficial/"
+                  href="https://www.instagram.com/george_arrunateghi/"
+                  target="_blank"
                   title="Instagram"
                 >
                   {" "}
@@ -57,7 +58,8 @@ const SectionGeorge = () => {
                 </a>
                 <a
                   style={styleIcons}
-                  href="https://open.spotify.com/artist/4Ycr4rT2v2QOPlNL5G8dIV?si=CA1i_psgQQiQgxR_eMj8ag"
+                  href="https://open.spotify.com/artist/0P8n9m0G7CdyPLDtoT0x9b"
+                  target="_blank"
                   title="Spotify"
                 >
                   {" "}
@@ -65,7 +67,8 @@ const SectionGeorge = () => {
                 </a>
                 <a
                   style={styleIcons}
-                  href="https://www.facebook.com/George oficial"
+                  href="https://www.facebook.com/Arrunateghi/"
+                  target="_blank"
                   title="Facebook"
                 >
                   {" "}
@@ -73,7 +76,8 @@ const SectionGeorge = () => {
                 </a>
                 <a
                   style={styleIcons}
-                  href="https://www.youtube.com/channel/UCAZa5Z2e2-8Z6LqOTskr-Qw/featured"
+                  href="https://www.youtube.com/user/MrArrunategui"
+                  target="_blank"
                   title="Youtube"
                 >
                   {" "}

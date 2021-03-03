@@ -18,9 +18,9 @@ const SobreNos = () => {
             style={{ height: "600px" }}
             blur={{ min: 1, max: 2 }}
           >
-            <div className="slider--text">
+            <div className="sliderText">
               <h1>Sobre Naza </h1>
-              <hr className="linhaText" />
+              
             </div>
           </Parallax>
         </div>

@@ -46,7 +46,8 @@ const SectionAluci = () => {
             <ul style={{ display: "flex", justifyContent: "center" }}>
               <a
                 style={styleIcons}
-                href="https://www.instagram.com/murilosantiagocompositor/"
+                href="https://www.instagram.com/alucinoise/"
+                target="_blank"
                 title="Instagram"
               >
                 {" "}
@@ -54,7 +55,8 @@ const SectionAluci = () => {
               </a>
               <a
                 style={styleIcons}
-                href="https://open.spotify.com/artist/6XHF5j783jbEMT3sM2q9Y7?si=6-EtNhSsR02yXvOFubSVBw"
+                href="https://open.spotify.com/artist/2kjVzhiCpW6gp5QmbI3m6Y"
+                target="_blank"
                 title="Spotify"
               >
                 {" "}
@@ -62,7 +64,8 @@ const SectionAluci = () => {
               </a>
               <a
                 style={styleIcons}
-                href="https://www.facebook.com/murilosantiagocompositor"
+                href="https://www.facebook.com/alucinoise/"
+                target="_blank"
                 title="Facebook"
               >
                 {" "}
@@ -70,7 +73,8 @@ const SectionAluci = () => {
               </a>
               <a
                 style={styleIcons}
-                href="https://www.youtube.com/channel/UCOZcBp-ZjnQDo1tX5NGLwvw/featured"
+                href="https://www.youtube.com/channel/UCWV4891FXmv9axy465juX7g"
+                target="_blank"
                 title="Youtube"
               >
                 {" "}

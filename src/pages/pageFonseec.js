@@ -6,24 +6,29 @@ const Artista = () => {
   return (
     <>
       <div>
-        <Banner />
+         <Banner /> {/*O Component de cima */}
       </div>
-      <div className="releaseArtista ">
+     <div className="releaseArtista "> {/*  O texto */}
         <h1 style={{ marginBottom: "2%" }}> Fonseec </h1>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem sIpsum has been the industry's standard dummy text
-          ever since the 1500s, when an unknown printer took a galley of type
-          and scrambled it to make a type specimen book. It has survived not
-          only five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. Lorem Ipsum is simply dummy text of
-          the printing and typesetting industry. Lorem Ipsum has been the
-          industry's standard dummy text ever since the 1500s, when an unknown
-          printer took a galley of type and scrambled it to make a type specimen
-          book. It has survived not only five centuries, but also the leap into
-          electronic typesetting, remaining essentially unchanged.
+        Fonseec deu início à sua carreira no mundo do rap em
+        2018, aos 19 anos, quando lançou seu primeiro trabalho
+        gravado, “Sofá”, que teve a participação do rapper
+        Menezzes. “Sofá” já delineava o estilo de Fonseec: um rap
+        mais romântico e sensualizado, contemporâneo e mais
+        próximo de suas vivências pessoais e artísticas.
+        Um mês depois dessa estreia, Fonseec já mostrava um
+        novo trabalho: “Vem Logo”. Em seguida veio o hit
+        “Mesma Cama”, em parceria com o NeoBeats, produtor
+        também de algumas das músicas do grupo Haikaiss e
+        Classe A, entre outros. Esses primeiros trabalhos, se
+        mostram influências de R&amp;B e do rapper Luccas Carlos, já
+        estabelecem também um estilo pessoal, moldado na
+        herança musical de Fonseec e em sua visão de mundo e da
+        criação artística.
         </p>
       </div>
+      {/* A div onde fica a Discografia */}
       <div
         style={{ width: "auto", height: "350px", backgroundColor: "#dcdcdc" }}
       >
@@ -39,7 +44,7 @@ const Artista = () => {
           {" "}
           Discografia{" "}
         </h1>
-        <CardFonseec />
+        <CardFonseec /> {/* Os cards de discografia */}
       </div>
     </>
   );
