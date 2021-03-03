@@ -37,6 +37,14 @@ const Header = () => {
                 <NavDropdown.Item href="#/Bruno-Cupertino">
                   Bruno Cupertino
                 </NavDropdown.Item>
+                <NavDropdown.Item href="#/Hans">Hans</NavDropdown.Item>
+                <NavDropdown.Item href="#/Lu-Toledo">
+                  Lu Toledo
+                </NavDropdown.Item>
+                <NavDropdown.Item href="#/Maycon-Mendes">
+                  Maycon Mendes
+                </NavDropdown.Item>
+                <NavDropdown.Item href="#/Hausen">Hausen</NavDropdown.Item>
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>
