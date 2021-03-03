@@ -49,7 +49,8 @@ const SectionNago = () => {
             <ul style={{ display: "flex", justifyContent: "center" }}>
               <a
                 style={styleIcons}
-                href="https://www.instagram.com/marcionagooficial/"
+                href="https://www.instagram.com/marcio.nagooficial/"
+                target="_blank"
                 title="Instagram"
               >
                 {" "}
@@ -58,6 +59,7 @@ const SectionNago = () => {
               <a
                 style={styleIcons}
                 href="https://open.spotify.com/artist/2QtmA3VCYhHFlsi9cwUggk"
+                target="_blank"
                 title="Spotify"
               >
                 {" "}
@@ -65,7 +67,8 @@ const SectionNago = () => {
               </a>
               <a
                 style={styleIcons}
-                href="https://www.facebook.com/nagomarcio"
+                href="https://www.facebook.com/nagomarcio/"
+                target="_blank"
                 title="Facebook"
               >
                 {" "}
@@ -74,6 +77,7 @@ const SectionNago = () => {
               <a
                 style={styleIcons}
                 href="https://www.youtube.com/channel/UCxzxv-sjKNAvr4cnnN1z_yA"
+                target="_blank"
                 title="Youtube"
               >
                 {" "}

@@ -53,7 +53,7 @@ const CardAluci = () => {
               <ul style={{ width: "30%", marginTop: 20 }}>
                 <a
                   style={styleIcons}
-                  href="https://open.spotify.com/album/1wMpHRZPUYSOnZdNzY28wp"
+                  href="https://open.spotify.com/artist/2kjVzhiCpW6gp5QmbI3m6Y"
                   title="Spotify"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -63,7 +63,7 @@ const CardAluci = () => {
                 </a>
                 <a
                   style={styleIcons}
-                  href="https://www.youtube.com/channel/UCOZcBp-ZjnQDo1tX5NGLwvw/featured"
+                  href="https://www.youtube.com/channel/UCWV4891FXmv9axy465juX7g"
                   title="Youtube"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -73,7 +73,7 @@ const CardAluci = () => {
                 </a>
                 <a
                   style={styleIcons}
-                  href="https://www.deezer.com/en/artist/80911222"
+                  href="https://www.deezer.com/en/artist/105790632"
                   title="Deezer"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -83,7 +83,7 @@ const CardAluci = () => {
                 </a>
                 <a
                   style={styleIcons}
-                  href="https://music.apple.com/br/artist/george-arrunateghi/912494498"
+                  href="https://music.apple.com/br/artist/alucinoise/1530102094"
                   title="Apple Music"
                   target="_blank"
                   rel="noopener noreferrer"

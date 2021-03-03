@@ -53,7 +53,7 @@ const CardNago = () => {
               <ul style={{ width: "30%", marginTop: 20 }}>
                 <a
                   style={styleIcons}
-                  href="https://open.spotify.com/album/1wMpHRZPUYSOnZdNzY28wp"
+                  href="https://open.spotify.com/artist/2QtmA3VCYhHFlsi9cwUggk"
                   title="Spotify"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -63,7 +63,7 @@ const CardNago = () => {
                 </a>
                 <a
                   style={styleIcons}
-                  href="https://www.youtube.com/channel/UCOZcBp-ZjnQDo1tX5NGLwvw/featured"
+                  href="https://www.youtube.com/channel/UCxzxv-sjKNAvr4cnnN1z_yA"
                   title="Youtube"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -73,7 +73,7 @@ const CardNago = () => {
                 </a>
                 <a
                   style={styleIcons}
-                  href="https://www.deezer.com/en/artist/80911222"
+                  href="https://www.deezer.com/en/artist/8946344"
                   title="Deezer"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -83,7 +83,7 @@ const CardNago = () => {
                 </a>
                 <a
                   style={styleIcons}
-                  href="https://music.apple.com/br/artist/george-arrunateghi/912494498"
+                  href="https://music.apple.com/br/artist/m%C3%A1rcio-nag%C3%B4/1528785186"
                   title="Apple Music"
                   target="_blank"
                   rel="noopener noreferrer"

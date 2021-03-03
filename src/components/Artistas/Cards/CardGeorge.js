@@ -54,7 +54,7 @@ const CardGeorge = () => {
               <ul style={{ width: "30%", marginTop: 20 }}>
                 <a
                   style={styleIcons}
-                  href="open.spotify.com/artist/0tiWlOYVWYzczJejHW4JRV"
+                  href="https://open.spotify.com/artist/0P8n9m0G7CdyPLDtoT0x9b"
                   title="Spotify"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -64,7 +64,7 @@ const CardGeorge = () => {
                 </a>
                 <a
                   style={styleIcons}
-                  href="https://open.spotify.com/artist/4Ycr4rT2v2QOPlNL5G8dIV?si=CA1i_psgQQiQgxR_eMj8ag"
+                  href="https://www.youtube.com/user/MrArrunategui"
                   title="Youtube"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -74,7 +74,7 @@ const CardGeorge = () => {
                 </a>
                 <a
                   style={styleIcons}
-                  href="https://www.deezer.com/br/artist/12250312?utm_campaign=clipboard-generic&utm_source=user_sharing&utm_medium=desktop&utm_content=album-132171152"
+                  href="https://www.deezer.com/en/artist/12250312"
                   title="Deezer"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -116,7 +116,7 @@ const CardGeorge = () => {
               <ul style={{ width: "30%", marginTop: 20 }}>
                 <a
                   style={styleIcons}
-                  href="open.spotify.com/artist/0tiWlOYVWYzczJejHW4JRV"
+                  href="https://open.spotify.com/artist/0P8n9m0G7CdyPLDtoT0x9b"
                   title="Spotify"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -136,7 +136,7 @@ const CardGeorge = () => {
                 </a>
                 <a
                   style={styleIcons}
-                  href="https://www.deezer.com/br/artist/12250312?utm_campaign=clipboard-generic&utm_source=user_sharing&utm_medium=desktop&utm_content=album-132171152"
+                  href="https://www.deezer.com/en/artist/12250312"
                   title="Deezer"
                   target="_blank"
                   rel="noopener noreferrer"

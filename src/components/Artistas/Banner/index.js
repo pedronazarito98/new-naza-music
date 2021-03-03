@@ -17,6 +17,7 @@ const insideStyles = {
   
 };
 
+
 const styleIcons = {
   display: "flex",
   justifyItems: "center",
@@ -56,7 +57,7 @@ function Banner() {
           </a>
           <a
             style={styleIcons}
-            href="https://open.spotify.com/artist/4Ycr4rT2v2QOPlNL5G8dIV?si=CA1i_psgQQiQgxR_eMj8ag"
+            href="https://open.spotify.com/artist/3cq9SAaQLVWE4Lr9ZeEk3J"
             title="Spotify"
             target="_blank" rel="noopener noreferrer"
           >
@@ -81,6 +82,8 @@ function Banner() {
             {" "}
             <i class="fab fa-youtube"></i>{" "}
           </a>
+          
+
         </ul>
           </div>
         </div>

@@ -55,7 +55,7 @@ const CardMurilo = () => {
               <ul style={{ width: "30%", marginTop: 20 }}>
                 <a
                   style={styleIcons}
-                  href="https://open.spotify.com/album/1wMpHRZPUYSOnZdNzY28wp"
+                  href="https://open.spotify.com/artist/6XHF5j783jbEMT3sM2q9Y7"
                   title="Spotify"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -85,7 +85,7 @@ const CardMurilo = () => {
                 </a>
                 <a
                   style={styleIcons}
-                  href="https://music.apple.com/br/artist/george-arrunateghi/912494498"
+                  href="https://music.apple.com/br/artist/murilo-santiago/1491376782"
                   title="Apple Music"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -117,7 +117,7 @@ const CardMurilo = () => {
               <ul style={{ width: "30%", marginTop: 20 }}>
                 <a
                   style={styleIcons}
-                  href="https://open.spotify.com/album/1wMpHRZPUYSOnZdNzY28wp"
+                  href="https://open.spotify.com/artist/6XHF5j783jbEMT3sM2q9Y7"
                   title="Spotify"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -147,7 +147,7 @@ const CardMurilo = () => {
                 </a>
                 <a
                   style={styleIcons}
-                  href="https://music.apple.com/br/artist/george-arrunateghi/912494498"
+                  href="https://music.apple.com/br/artist/murilo-santiago/1491376782"
                   title="Apple Music"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -179,7 +179,7 @@ const CardMurilo = () => {
               <ul style={{ width: "30%", marginTop: 20 }}>
                 <a
                   style={styleIcons}
-                  href="https://open.spotify.com/album/1wMpHRZPUYSOnZdNzY28wp"
+                  href="https://open.spotify.com/artist/6XHF5j783jbEMT3sM2q9Y7"
                   title="Spotify"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -209,7 +209,7 @@ const CardMurilo = () => {
                 </a>
                 <a
                   style={styleIcons}
-                  href="https://music.apple.com/br/artist/george-arrunateghi/912494498"
+                  href="https://music.apple.com/br/artist/murilo-santiago/1491376782"
                   title="Apple Music"
                   target="_blank"
                   rel="noopener noreferrer"
