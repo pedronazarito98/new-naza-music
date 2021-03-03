@@ -1,0 +1,81 @@
+.Container-- {
+  width: 100%;
+  max-width: 1220px;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #1a1a1a;
+}
+
+.CardContainer {
+  max-width: 960px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+.card-style {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 10px;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 5px 10px rgba(15, 15, 15, 0.2);
+          box-shadow: 0px 5px 10px rgba(15, 15, 15, 0.2);
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.img-card {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 320px;
+          flex: 1 1 320px;
+}
+
+.img-card img {
+  width: 100%;
+}
+
+.text-card {
+  -webkit-box-flex: 2;
+      -ms-flex: 2 1 320px;
+          flex: 2 1 320px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.text-card h1 {
+  color: #a50a0a;
+}
+
+.text-card p {
+  color: #1a1a1a;
+  margin: 15px 0px;
+}
+
+.text-card .link-btn {
+  display: block;
+  padding: 10px 20px;
+  width: 200px;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: linear-gradient(225deg, #a50a0a, #5df777);
+}
+/*# sourceMappingURL=cardServicos.css.map */

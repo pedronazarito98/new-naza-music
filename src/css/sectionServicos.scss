@@ -32,9 +32,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  box-shadow: 2px 5px 12px 0px rgb(15 15 15 / 20%);
 
   &:hover {
+    box-shadow: 2px 5px 12px 0px rgb(15 15 15 / 20%);
     cursor: pointer;
   }
 }
@@ -68,17 +68,17 @@
   padding: 15px;
   .title-icon {
     color: #000;
-    font-size: 24px;
-    font-weight: 500;
+    font-size: 26px;
+    font-weight: bold;
     text-align: center;
     &:hover {
       color: #6d0101;
     }
   }
   .subTitle-icon {
-    color: #000;
+    color: rgba(0, 0, 0, 0.5);
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 15px;
     width: 150px;
     height: 55px;
@@ -86,7 +86,6 @@
     padding: 5px;
     &:hover {
       color: #6d0101;
-      box-shadow: 2px 5px 12px 0px rgb(15 15 15 / 20%);
     }
   }
 }

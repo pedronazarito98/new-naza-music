@@ -1,77 +1,94 @@
-.ModalContainer {
-  width: 100%;
-  max-width: 780px;
-  border: 1px solid #000;
-  background-color: #fff;
-  margin: 0 auto;
-  .header-data {
-    font-size: 12px;
-    color: red;
+.conteudoo {
+  position: relative;
+  z-index: 80;
+  border: 2em solid transparent;
+}
+.conteudoo:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 66%;
+  border-left: 1px dashed #ccc;
+}
+.mostra-conteudo {
+  float: left;
+  width: 66%;
+  border-right: 2em solid transparent;
+}
+.titulo-post {
+  font-size: 180%;
+  line-height: 120%;
+}
+
+.share {
+  margin: 2em 0;
+  .box {
+    float: left;
+    margin-right: 0.25em;
+  }
+  .link-botao {
+    display: block;
+    color: #fff;
   }
 }
 
-.conteudo-container {
-  // border: 1px solid #1a1a1a;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  margin: 20px 10px;
-  width: 100%;
-  max-width: 550px;
-  padding: 5px;
-  margin: 10px;
-  h1 {
-    width: 550px;
-    font-size: 42px;
-  }
-  p {
-    font-size: 1rem;
-    color: #777;
-    line-height: 1.8;
-    text-align: left;
-    margin: 5px;
+// .share
+
+.facebook-share {
+  .link-botao {
+    background: #3b5998;
   }
 }
 
-.img-modal {
-  width: 550px;
-
-  img {
-    width: 100%;
+.icone-botao {
+  position: relative;
+  width: 2em;
+  float: left;
+  display: block;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+}
+.caixa-botao {
+  float: left;
+  display: block;
+  height: 100%;
+}
+.link-botao {
+  i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding-top: 0.1em;
+    font-size: 100%;
+    line-height: 0;
+    transform: translateY(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
   }
 }
-
-.social-container {
-  width: 30%;
-  padding-left: 2rem;
-  background-color: #eee;
-  p {
-    border-bottom: 1px solid rgb(214, 7, 7);
-    font-size: 0.75rem;
-  }
+.link-botao span {
+  font-weight: 700;
 }
-.social-icon {
-  display: flex;
-  align-items: center;
-  margin: 10px;
-  flex-direction: column;
-  justify-content: space-around;
-  .ball-icon {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: #3b5998;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    flex-direction: row;
-    font-size: 30px;
-  }
+.link-botao {
+  overflow: hidden;
+  position: relative;
+  height: 50px;
+  width: 150px;
+  line-height: 0;
+  white-space: nowrap;
+  border-radius: 1px;
+}
 
-  .name-icon {
-    font-size: 24px;
-    color: #000;
-    flex-direction: row;
-  }
+.link-botao:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.caixa-botao {
+  padding: 25px;
+  // font-size: 70%;
+  line-height: 0;
 }

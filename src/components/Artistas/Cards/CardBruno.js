@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Figure, Container } from "react-bootstrap";
+import { Figure } from "react-bootstrap";
 import ReactCardFlip from "react-card-flip";
 import BrunoImg from "../images/bruno-card2.jpg";
 

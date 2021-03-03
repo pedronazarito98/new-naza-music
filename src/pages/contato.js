@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import {
   Form,
   FormGroup,
@@ -25,7 +25,7 @@ const ContainerForm = {
 
 const Contato = () => {
   return (
-    <React.Fragment>
+    <>
       <Container fluid={true}>
         <div className="contact">
           <h2> Naza Music </h2>
@@ -86,7 +86,7 @@ const Contato = () => {
           </Paper>
         </div>
       </Container>
-    </React.Fragment>
+    </>
   );
 };
 export default Contato;

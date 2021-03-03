@@ -1,7 +1,5 @@
 import React from "react";
 import { Paper, Grid, Box } from "@material-ui/core";
-import { Formik, Form as FormFormik, Field, ErrorMessage } from "formik";
-import { TextField } from "formik-material-ui";
 import {
   Form,
   FormGroup,
@@ -10,7 +8,6 @@ import {
   Row,
   Col,
   Button,
-  Container,
 } from "react-bootstrap";
 
 const StylePaper = {

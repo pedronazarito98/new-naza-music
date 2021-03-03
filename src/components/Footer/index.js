@@ -1,8 +1,8 @@
 import React from "react";
-import { Container, Row, Col, Nav } from "react-bootstrap";
+import { Row, Col, Nav } from "react-bootstrap";
 const Footer = () => {
   return (
-    <React.Fragment>
+    <>
       <div className="main-footer">
         <Row sm="auto">
           {/*Coluna 1*/}
@@ -71,7 +71,7 @@ const Footer = () => {
           </p>
         </Row>
       </div>
-    </React.Fragment>
+    </>
   );
 };
 export default Footer;
