@@ -98,9 +98,9 @@ const SectionCards = () => {
           tituloModal="GASOLINA”, NOVO SINGLE DE FONSEEC, ESTÁ NAS PLATAFORMAS DIGITAIS"
           linkFacebook="https://www.instagram.com/p/CLUpdRjg_K-/"
           linkSpotify="https://www.instagram.com/p/CLUpdRjg_K-/"
-          
           conteudoModal1="Batida forte e solos de guitarra, “Gasolina”, entrelaça rap com rock "
           conteudoModal2="Nas últimas horas de 2020, Fonseec disponibilizou seu quarto single em todos os aplicativos de música.  Em Gasolina, o cantor, compositor e multi-instrumentista Fonseec cria uma explosiva combinação de rap com rock, numa love song dedicada ao amor carnal, ardente, impulsivo, avassalador e perigoso. A forte carga erótica dos versos de Gasolina vem acompanhada de ornamentos sonoros não menos inflamáveis, com destaque para os acordes de uma guitarra “dropada”. O single conta com a participação do cantor, guitarrista e produtor Thierre, responsável pelo mix final.  "
+          // conteudoModal3="Lorem Ipsum é simplesmente um texto fictício da indústria de impressão e composição. Lorem Ipsum tem sido o texto fictício padrão da indústria desde os anos 1500, quando um impressor desconhecido pegou um modelo de impressão e embaralhou para fazer um livro de amostra de tipos. Ele sobreviveu não apenas cinco séculos, mas também ao salto para a composição eletrônica, permanecendo essencialmente inalterado. Foi popularizado na década de 1960 com o lançamento de folhas de Letraset contendo passagens de Lorem Ipsum e, mais recentemente, com software de editoração eletrônica como Aldus PageMaker incluindo versões de Lorem Ipsum."
         >
           <span>
             Além do single, Fonseec preparou um pacote completo. Seu novo
@@ -113,8 +113,6 @@ const SectionCards = () => {
               Confira nas plataformas digitais
             </a>
           </span>
-
-
         </Modals>
       </div>
     </div>
@@ -315,8 +313,8 @@ const SectionCards = () => {
         </Modal>
         <CardNews
           imageNews={ImageGeorge}
-          tituloNews="Di Saquê"
-          subtituloNews='Batida forte e solos de guitarra, "Gasolina", entrelaça rap com rock.'
+          tituloNews="Tropical Romance"
+          subtituloNews='O amor, em suas mais distintas formas e nuances'
           onClick={handleOpen4}
         />
         <Modal
@@ -329,8 +327,8 @@ const SectionCards = () => {
         </Modal>
         <CardNews
           imageNews={ImageMurilo}
-          tituloNews="Di Saquê"
-          subtituloNews='Batida forte e solos de guitarra, "Gasolina", entrelaça rap com rock.'
+          tituloNews="Cada um É o Mundo"
+          subtituloNews='Música Suave'
           onClick={handleOpen5}
         />
         <Modal
