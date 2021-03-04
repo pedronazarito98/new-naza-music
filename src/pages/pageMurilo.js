@@ -49,7 +49,7 @@ function Banner() {
               <a
                 style={styleIcons}
                 href="https://www.instagram.com/murilosantiagocompositor/"
-                target="_blank"
+                target="blank"
                 title="Instagram"
               >
                 {" "}
@@ -58,7 +58,7 @@ function Banner() {
               <a
                 style={styleIcons}
                 href="https://open.spotify.com/artist/6XHF5j783jbEMT3sM2q9Y7?si=6-EtNhSsR02yXvOFubSVBw"
-                target="_blank"
+                target="blank"
                 title="Spotify"
               >
                 {" "}
@@ -67,7 +67,7 @@ function Banner() {
               <a
                 style={styleIcons}
                 href="https://www.facebook.com/murilosantiagocompositor"
-                target="_blank"
+                target="blank"
                 title="Facebook"
               >
                 {" "}
@@ -76,7 +76,7 @@ function Banner() {
               <a
                 style={styleIcons}
                 href="https://www.youtube.com/channel/UCOZcBp-ZjnQDo1tX5NGLwvw/featured"
-                target="_blank"
+                target="blank"
                 title="Youtube"
               >
                 {" "}

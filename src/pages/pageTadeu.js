@@ -47,7 +47,7 @@ function BannerTadeu() {
               <a
                 style={styleIcons}
                 href="https://www.instagram.com/tadeufrancooficial/"
-                target="_blank"
+                target="blank"
                 title="Instagram"
               >
                 {" "}
@@ -56,7 +56,7 @@ function BannerTadeu() {
               <a
                 style={styleIcons}
                 href="https://open.spotify.com/artist/5dkV6Utwjf4MjWWNlsKWfp?autoplay=true"
-                target="_blank"
+                target="blank"
                 title="Spotify"
               >
                 {" "}
@@ -65,7 +65,7 @@ function BannerTadeu() {
               <a
                 style={styleIcons}
                 href="https://www.facebook.com/tadeufrancooficial/"
-                target="_blank"
+                target="blank"
                 title="Facebook"
               >
                 {" "}
@@ -74,7 +74,7 @@ function BannerTadeu() {
               <a
                 style={styleIcons}
                 href="https://www.youtube.com/channel/UCsrIo0Rq5jnGtzAH5BeOErw"
-                target="_blank"
+                target="blank"
                 title="Youtube"
               >
                 {" "}

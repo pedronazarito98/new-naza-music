@@ -49,7 +49,7 @@ const SectionBruno = () => {
               <a
                 style={styleIcons}
                 href="https://www.instagram.com/brunocupertino.oficial/?hl=pt-br"
-                target="_blank"
+                target="blank"
                 title="Instagram"
               >
                 {" "}
@@ -58,7 +58,7 @@ const SectionBruno = () => {
               <a
                 style={styleIcons}
                 href="https://open.spotify.com/artist/2RwBpMqLtAGEbdWWPgQ65Y"
-                target="_blank"
+                target="blank"
                 title="Spotify"
               >
                 {" "}
@@ -67,7 +67,7 @@ const SectionBruno = () => {
               <a
                 style={styleIcons}
                 href="https://www.facebook.com/brunocupertino.oficial/"
-                target="_blank"
+                target="blank"
                 title="Facebook"
               >
                 {" "}
@@ -76,7 +76,7 @@ const SectionBruno = () => {
               <a
                 style={styleIcons}
                 href="https://www.youtube.com/channel/UCloHOFnyYRQfbb8BLgz0LPg"
-                target="_blank"
+                target="blank"
                 title="Youtube"
               >
                 {" "}

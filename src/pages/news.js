@@ -21,7 +21,7 @@ function News(props) {
           <h1 className="titulo-post">{tituloModal}</h1>
           <div className="share">
             <div className="box facebook-share">
-              <a href={linkFacebook} className="link-botao" target="_blank">
+              <a href={linkFacebook} className="link-botao" target="blank">
                 <span className="icone-botao direita">
                   <i class="fab fa-facebook-f"></i>
                 </span>
@@ -29,7 +29,7 @@ function News(props) {
               </a>
             </div>
             <div className="box youtube-share">
-              <a href={linkYoutube} className="link-botao" target="_blank">
+              <a href={linkYoutube} className="link-botao" target="blank">
                 <span className="icone-botao direita">
                   <i class="fab fa-youtube"></i>
                 </span>
@@ -37,7 +37,7 @@ function News(props) {
               </a>
             </div>
             <div className="box spotify-share">
-              <a href={linkSpotify} className="link-botao" target="_blank">
+              <a href={linkSpotify} className="link-botao" target="blank">
                 <span className="icone-botao direita">
                   <i class="fab fa-spotify"></i>
                 </span>

@@ -47,7 +47,7 @@ const SectionAluci = () => {
               <a
                 style={styleIcons}
                 href="https://www.instagram.com/alucinoise/"
-                target="_blank"
+                target="blank"
                 title="Instagram"
               >
                 {" "}
@@ -56,7 +56,7 @@ const SectionAluci = () => {
               <a
                 style={styleIcons}
                 href="https://open.spotify.com/artist/2kjVzhiCpW6gp5QmbI3m6Y"
-                target="_blank"
+                target="blank"
                 title="Spotify"
               >
                 {" "}
@@ -65,7 +65,7 @@ const SectionAluci = () => {
               <a
                 style={styleIcons}
                 href="https://www.facebook.com/alucinoise/"
-                target="_blank"
+                target="blank"
                 title="Facebook"
               >
                 {" "}
@@ -74,7 +74,7 @@ const SectionAluci = () => {
               <a
                 style={styleIcons}
                 href="https://www.youtube.com/channel/UCWV4891FXmv9axy465juX7g"
-                target="_blank"
+                target="blank"
                 title="Youtube"
               >
                 {" "}

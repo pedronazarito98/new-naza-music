@@ -98,7 +98,6 @@ const SectionCards = () => {
           tituloModal="GASOLINA”, NOVO SINGLE DE FONSEEC, ESTÁ NAS PLATAFORMAS DIGITAIS"
           linkFacebook="https://www.instagram.com/p/CLUpdRjg_K-/"
           linkSpotify="https://www.instagram.com/p/CLUpdRjg_K-/"
-          
           conteudoModal1="Batida forte e solos de guitarra, “Gasolina”, entrelaça rap com rock "
           conteudoModal2="Nas últimas horas de 2020, Fonseec disponibilizou seu quarto single em todos os aplicativos de música.  Em Gasolina, o cantor, compositor e multi-instrumentista Fonseec cria uma explosiva combinação de rap com rock, numa love song dedicada ao amor carnal, ardente, impulsivo, avassalador e perigoso. A forte carga erótica dos versos de Gasolina vem acompanhada de ornamentos sonoros não menos inflamáveis, com destaque para os acordes de uma guitarra “dropada”. O single conta com a participação do cantor, guitarrista e produtor Thierre, responsável pelo mix final.  "
         >
@@ -113,8 +112,6 @@ const SectionCards = () => {
               Confira nas plataformas digitais
             </a>
           </span>
-
-
         </Modals>
       </div>
     </div>
@@ -277,6 +274,41 @@ const SectionCards = () => {
           subtituloNews='Batida forte e solos de guitarra, "Gasolina", entrelaça rap com rock.'
           onClick={handleOpen1}
         />
+
+        <CardNews
+          imageNews={ImageHans}
+          tituloNews="Di Saquê"
+          subtituloNews="Hans Landim está com música nova nas plataformas digitais – “Di Saquê”"
+          onClick={handleOpen2}
+        />
+
+        <CardNews
+          imageNews={ImageHausen}
+          tituloNews="Os Homens de Pijamas"
+          subtituloNews="Lançamento: Dr. Hausen & Mr. Guay "
+          onClick={handleOpen3}
+        />
+
+        <CardNews
+          imageNews={ImageGeorge}
+          tituloNews="Di Saquê"
+          subtituloNews='Batida forte e solos de guitarra, "Gasolina", entrelaça rap com rock.'
+          onClick={handleOpen4}
+        />
+
+        <CardNews
+          imageNews={ImageMurilo}
+          tituloNews="Di Saquê"
+          subtituloNews='Batida forte e solos de guitarra, "Gasolina", entrelaça rap com rock.'
+          onClick={handleOpen5}
+        />
+
+        <CardNews
+          imageNews={ImageLuToledo}
+          tituloNews="Di Saquê"
+          subtituloNews='Batida forte e solos de guitarra, "Gasolina", entrelaça rap com rock.'
+          onClick={handleOpen6}
+        />
         <Modal
           open={open1}
           onClose={handleClose1}
@@ -285,12 +317,6 @@ const SectionCards = () => {
         >
           {body1}
         </Modal>
-        <CardNews
-          imageNews={ImageHans}
-          tituloNews="Di Saquê"
-          subtituloNews="Hans Landim está com música nova nas plataformas digitais – “Di Saquê”"
-          onClick={handleOpen2}
-        />
         <Modal
           open={open2}
           onClose={handleClose2}
@@ -299,12 +325,6 @@ const SectionCards = () => {
         >
           {body2}
         </Modal>
-        <CardNews
-          imageNews={ImageHausen}
-          tituloNews="Os Homens de Pijamas"
-          subtituloNews="Lançamento: Dr. Hausen & Mr. Guay "
-          onClick={handleOpen3}
-        />
         <Modal
           open={open3}
           onClose={handleClose3}
@@ -313,26 +333,14 @@ const SectionCards = () => {
         >
           {body3}
         </Modal>
-        <CardNews
-          imageNews={ImageGeorge}
-          tituloNews="Di Saquê"
-          subtituloNews='Batida forte e solos de guitarra, "Gasolina", entrelaça rap com rock.'
-          onClick={handleOpen4}
-        />
         <Modal
-          open={open1}
+          open={open4}
           onClose={handleClose4}
           arial-labelledby="simple-modal-title"
           arial-describedby="simple-modal-description"
         >
           {body4}
         </Modal>
-        <CardNews
-          imageNews={ImageMurilo}
-          tituloNews="Di Saquê"
-          subtituloNews='Batida forte e solos de guitarra, "Gasolina", entrelaça rap com rock.'
-          onClick={handleOpen5}
-        />
         <Modal
           open={open5}
           onClose={handleClose5}
@@ -341,12 +349,6 @@ const SectionCards = () => {
         >
           {body5}
         </Modal>
-        <CardNews
-          imageNews={ImageLuToledo}
-          tituloNews="Di Saquê"
-          subtituloNews='Batida forte e solos de guitarra, "Gasolina", entrelaça rap com rock.'
-          onClick={handleOpen6}
-        />
         <Modal
           open={open6}
           onClose={handleClose6}

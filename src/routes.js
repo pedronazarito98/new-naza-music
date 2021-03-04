@@ -19,12 +19,11 @@ import SectionHans from "./pages/pageHans";
 import SectionLuToledo from "./pages/pageLuToledo";
 import SectionMaycon from "./pages/pageMaycon";
 import SectionHausen from "./pages/pageHausen";
-import HomeNew from "./pages/PagInicial";
+
 export default (props) => (
   <HashRouter>
     <Switch>
       <Route exact path="/" component={Home} />
-      {/* <Route exact path="/" component={HomeNew} /> */}
       <Route exact path="/news" component={News} />
       <Route exact path="/shows" component={Shows} />
       <Route exact path="/artistas" component={Artistas} />
