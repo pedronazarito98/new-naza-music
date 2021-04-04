@@ -18,7 +18,7 @@ const styleIcons = {
   color: "#fff",
 };
 
-const CardHans = () => {
+const CardMaycon = () => {
   const [isFlipped, setIsFlipped] = useState(false);
 
   const handleClick = () => {
@@ -100,4 +100,4 @@ const CardHans = () => {
   );
 };
 
-export default CardHans;
+export default CardMaycon;

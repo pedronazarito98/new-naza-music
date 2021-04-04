@@ -53,7 +53,7 @@ const CardLuToledo = () => {
               <ul style={{ width: "30%", marginTop: 20 }}>
                 <a
                   style={styleIcons}
-                  href="https://open.spotify.com/artist/2RwBpMqLtAGEbdWWPgQ65Y"
+                  href="https://open.spotify.com/album/6fzZ5AbwXUJ9h4vW7S8S7f"
                   title="Spotify"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -63,7 +63,7 @@ const CardLuToledo = () => {
                 </a>
                 <a
                   style={styleIcons}
-                  href="https://www.youtube.com/channel/UCloHOFnyYRQfbb8BLgz0LPg/featured"
+                  href="https://www.youtube.com/watch?v=KqTBv8EAotg&list=PLLVokYB5pjE592xNjiHx_smqYbtHFcrDv"
                   title="Youtube"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -73,7 +73,7 @@ const CardLuToledo = () => {
                 </a>
                 <a
                   style={styleIcons}
-                  href="https://www.deezer.com/en/artist/91111112"
+                  href="https://www.deezer.com/br/album/201053452"
                   title="Deezer"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -83,7 +83,7 @@ const CardLuToledo = () => {
                 </a>
                 <a
                   style={styleIcons}
-                  href="https://music.apple.com/br/artist/bruno-cupertino/1507612184"
+                  href="https://music.apple.com/br/album/jeitos-de-amar/1549674883"
                   title="Apple Music"
                   target="_blank"
                   rel="noopener noreferrer"

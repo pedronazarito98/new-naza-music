@@ -43,12 +43,12 @@ function SectionHausen() {
               roundedCircle
               className="img-circle"
             />
-            <h1 style={styleTitle}> Dr Hausen & Mr Guay</h1>
+            <h1 style={styleTitle}> Dr Hausen &#38; Mr Guay</h1>
             <p style={{ color: "#fff", fontSize: "20px" }}> Compositor </p>
             <ul style={{ display: "flex", justifyContent: "center" }}>
               <a
                 style={styleIcons}
-                href="https://www.instagram.com/brunocupertino.oficial/?hl=pt-br"
+                href="https://www.instagram.com/drhausenemrguayoficial/"
                 target="blank"
                 title="Instagram"
               >
@@ -57,7 +57,7 @@ function SectionHausen() {
               </a>
               <a
                 style={styleIcons}
-                href="https://open.spotify.com/artist/2RwBpMqLtAGEbdWWPgQ65Y"
+                href="https://open.spotify.com/artist/5wssa01tJKQnuhgt3AfSXM"
                 target="blank"
                 title="Spotify"
               >
@@ -66,7 +66,7 @@ function SectionHausen() {
               </a>
               <a
                 style={styleIcons}
-                href="https://www.facebook.com/brunocupertino.oficial/"
+                href="https://www.facebook.com/drhausenemrguayoficial/"
                 target="blank"
                 title="Facebook"
               >
@@ -75,7 +75,7 @@ function SectionHausen() {
               </a>
               <a
                 style={styleIcons}
-                href="https://www.youtube.com/channel/UCloHOFnyYRQfbb8BLgz0LPg"
+                href="https://www.youtube.com/channel/UCWT4E1Of-TjgucLPZbe4FJg"
                 target="blank"
                 title="Youtube"
               >
@@ -87,17 +87,45 @@ function SectionHausen() {
         </div>
       </Parallax>
       <div className="releaseArtista ">
-        <h1 style={{ marginBottom: "2%" }}> Dr Hausen & Mr Guay </h1>
+        <h1 style={{ marginBottom: "2%" }}> Dr Hausen &#38; Mr Guay </h1>
+
         <p>
-          O sambista mineiro Bruno Cupertino se destaca por uma escrita
-          inteligente, rimas modernas, melodias diversificadas e o forte elo com
-          a cultura afro-brasileira. Partidário incondicional do samba
-          tradicional, Bruno Cupertino apresenta em “Canto Forte” 12 composições
-          bem ajustadas ao nome do disco: um conjunto de melodias elaboradas,
-          letras consistentes e instrumentação requintada que privilegiam a
-          sonoridade natural das vozes, cordas, percussões, flautas e sopros. As
-          faixas já estão disponibilizadas nas principais plataformas de música
-          digital.
+          {" "}
+          Com relação ao trabalho Dr. Hausen in concert,, assim se define o
+          letrista Hausenclever Katerbroyne Pettersen, natural de Alvorada,
+          distrito de Carangola-MG, 63 anos, engenheiro civil, residente em
+           Palmas -TO.
+        </p>
+        <p>
+          {" "}
+          “DEUS teve compaixão de mim e tornou-me compositor (250 letras),
+          escritor e poeta; fui influenciado pelo samba, mpb, bossa-nova, blues,
+          ópera e música clássica - Cartola, Caymmi, Paulinho da Viola, Tom
+          Jobim, BB King, Caruso, Tchaykovsky, Chopin, Louis Armstrong -, entre
+          outras estrelas do show business internacional. Neste primeiro
+          trabalho, tive a parceria de profissionais tocantinenses, nomeados na
+          contracapa do CD. É um ensaio experimental, eclético, sugerindo
+          caminhos, voos rasantes que refletem as minhas percepções do mundo e a
+          minha reação e elas. Quem sabe, este trabalho possa contribuir para
+          uma nova abordagem da música popular brasileira”.
+        </p>
+        <hr />
+
+        <p>
+          Também nascido em Alvorada, 62 anos, Guay é compositor, cantor e
+          instrumentista. Começou a carreira profissional aos 17 anos, em
+          Governador Valadares.  Integrante do Grupo Temucorda, formado no final
+          dos anos 70, gravou seu primeiro vinil – Sangria – pela gravadora
+          Copacabana. Também com o Grupo Temucorda gravou o segundo vinil – Voo
+          livre de um pensamento (gravadora Phoenix). Com a dissolução da banda,
+          em parceria com o irmão, também músico, Velho Rosa (Housemberg
+          Pettersen,) gravou seu terceiro trabalho independente: Velho Rosa e
+          Guay. Sua parceria mais recente é com outro irmão, Hausenclever, que
+          deu origem ao CD  Dr. Hausen in concert.
+        </p>
+        <p>
+          Eventualmente, apresenta-se em shows e festivais em Belo Horizonte,
+          além de Governador Valadares e região.
         </p>
       </div>
       <div

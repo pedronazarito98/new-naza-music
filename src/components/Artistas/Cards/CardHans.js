@@ -53,7 +53,7 @@ const CardHans = () => {
               <ul style={{ width: "30%", marginTop: 20 }}>
                 <a
                   style={styleIcons}
-                  href="https://open.spotify.com/artist/2RwBpMqLtAGEbdWWPgQ65Y"
+                  href="https://open.spotify.com/album/7nFGfq8ABRKwWVPqGH8K0y"
                   title="Spotify"
                   target="blank"
                   rel="noopener noreferrer"
@@ -63,7 +63,7 @@ const CardHans = () => {
                 </a>
                 <a
                   style={styleIcons}
-                  href="https://www.youtube.com/channel/UCloHOFnyYRQfbb8BLgz0LPg/featured"
+                  href="https://www.youtube.com/watch?v=4TBMdAho5OE"
                   title="Youtube"
                   target="blank"
                   rel="noopener noreferrer"
@@ -73,7 +73,7 @@ const CardHans = () => {
                 </a>
                 <a
                   style={styleIcons}
-                  href="https://www.deezer.com/en/artist/91111112"
+                  href="https://www.deezer.com/en/album/190633542"
                   title="Deezer"
                   target="blank"
                   rel="noopener noreferrer"
@@ -83,7 +83,7 @@ const CardHans = () => {
                 </a>
                 <a
                   style={styleIcons}
-                  href="https://music.apple.com/br/artist/bruno-cupertino/1507612184"
+                  href="https://music.apple.com/br/album/di-saqu%C3%AA-single/1543175965"
                   title="Apple Music"
                   target="blank"
                   rel="noopener noreferrer"

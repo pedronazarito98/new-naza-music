@@ -14,9 +14,9 @@ const Header = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto p-6 ml-4">
               <Nav.Link href="/"> Home </Nav.Link>
-              {/* <Nav.Link href="#/news">Notícias</Nav.Link> */}
+              {/*  <Nav.Link href="#/news">Notícias</Nav.Link>*/}
               <Nav.Link href="#/servicos">Serviços</Nav.Link>
-              {/* <Nav.Link href="#/shows">Shows</Nav.Link> */}
+              {/*  <Nav.Link href="#/shows">Shows</Nav.Link>*/}
               <Nav.Link href="#/sobre">Sobre</Nav.Link>
               <Nav.Link href="#/contato">Contato</Nav.Link>
               <NavDropdown title="Artistas" id="basic-nav-dropdown">
@@ -45,7 +45,7 @@ const Header = () => {
                   Maycon Mendes
                 </NavDropdown.Item>
                 <NavDropdown.Item href="#/Hausen">
-                  Dr Hausen & Mr Guay
+                  Dr.Hausen &#38; Mr Guay{" "}
                 </NavDropdown.Item>
               </NavDropdown>
             </Nav>

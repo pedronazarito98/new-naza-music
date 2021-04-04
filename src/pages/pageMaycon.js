@@ -48,7 +48,7 @@ function SectionMaycon() {
             <ul style={{ display: "flex", justifyContent: "center" }}>
               <a
                 style={styleIcons}
-                href="https://www.instagram.com/brunocupertino.oficial/?hl=pt-br"
+                href="https://www.instagram.com/mayconmendesmm/"
                 target="blank"
                 title="Instagram"
               >
@@ -57,7 +57,7 @@ function SectionMaycon() {
               </a>
               <a
                 style={styleIcons}
-                href="https://open.spotify.com/artist/2RwBpMqLtAGEbdWWPgQ65Y"
+                href="https://open.spotify.com/artist/1wgOCQsLhS8uLmByqhJcpI"
                 target="blank"
                 title="Spotify"
               >
@@ -66,7 +66,7 @@ function SectionMaycon() {
               </a>
               <a
                 style={styleIcons}
-                href="https://www.facebook.com/brunocupertino.oficial/"
+                href="https://www.facebook.com/mayconmendesmm"
                 target="blank"
                 title="Facebook"
               >
@@ -75,7 +75,7 @@ function SectionMaycon() {
               </a>
               <a
                 style={styleIcons}
-                href="https://www.youtube.com/channel/UCloHOFnyYRQfbb8BLgz0LPg"
+                href="https://www.youtube.com/user/mayconmendesmanhasde"
                 target="blank"
                 title="Youtube"
               >

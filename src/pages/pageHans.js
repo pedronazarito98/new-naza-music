@@ -49,7 +49,7 @@ function SectionHans() {
             <ul style={{ display: "flex", justifyContent: "center" }}>
               <a
                 style={styleIcons}
-                href="https://www.instagram.com/brunocupertino.oficial/?hl=pt-br"
+                href="https://www.instagram.com/hanslandim/"
                 target="blank"
                 title="Instagram"
               >
@@ -58,7 +58,7 @@ function SectionHans() {
               </a>
               <a
                 style={styleIcons}
-                href="https://open.spotify.com/artist/2RwBpMqLtAGEbdWWPgQ65Y"
+                href="https://open.spotify.com/artist/3zgkrryULAfVdpZ9FDamBG"
                 target="blank"
                 title="Spotify"
               >
@@ -67,7 +67,7 @@ function SectionHans() {
               </a>
               <a
                 style={styleIcons}
-                href="https://www.facebook.com/brunocupertino.oficial/"
+                href="https://www.facebook.com/hanslandim/"
                 target="blank"
                 title="Facebook"
               >
@@ -76,7 +76,7 @@ function SectionHans() {
               </a>
               <a
                 style={styleIcons}
-                href="https://www.youtube.com/channel/UCloHOFnyYRQfbb8BLgz0LPg"
+                href="https://www.youtube.com/channel/UCmBuLev4dz6NUi1L00hnkiA"
                 target="blank"
                 title="Youtube"
               >
@@ -94,7 +94,7 @@ function SectionHans() {
           compositor e intérprete. O artista natural de Belo Horizonte é reflexo
           de seu carisma. "Não tenho preconceito principalmente no quesito arte,
           nem um pouco careta", conta. Tudo isso está incorporado nas
-          musicalidades dos seus trabalhos já lançados:  A Me Confrontar, Roçar
+          musicalidades dos seus trabalhos já lançados: A Me Confrontar, Roçar
           teu pelo e Cafuné Café. As canções já podem ser ouvidas e assistidas
           nas plataformas digitais e youtube.
         </p>
@@ -109,7 +109,7 @@ function SectionHans() {
           pop, os que são performáticos que dançam, cantam e interpretam de
           maneiras diferentes. Acho o Prince fantástico, Michael Jackson também.
           Mas a Madonna sempre roubava meus olhares. Sou apaixonado pela Amy
-          Winehouse. Não canso de ouvir até hoje ``, confessa o cantor.
+          Winehouse. Não canso de ouvir até hoje", confessa o cantor.
         </p>
         <p>
           Com muita energia, o músico está agora focado em sua carreira solo.

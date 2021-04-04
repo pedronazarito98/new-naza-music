@@ -57,7 +57,7 @@ const CardHausen = () => {
               <ul style={{ width: "30%", marginTop: 20 }}>
                 <a
                   style={styleIcons}
-                  href="https://open.spotify.com/artist/2RwBpMqLtAGEbdWWPgQ65Y"
+                  href="https://open.spotify.com/album/3DzBq41oqDvvZdQQNlhAFd"
                   title="Spotify"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -67,7 +67,7 @@ const CardHausen = () => {
                 </a>
                 <a
                   style={styleIcons}
-                  href="https://www.youtube.com/channel/UCloHOFnyYRQfbb8BLgz0LPg/featured"
+                  href="https://www.youtube.com/channel/UCWT4E1Of-TjgucLPZbe4FJg/featured"
                   title="Youtube"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -77,7 +77,7 @@ const CardHausen = () => {
                 </a>
                 <a
                   style={styleIcons}
-                  href="https://www.deezer.com/en/artist/91111112"
+                  href="https://www.deezer.com/en/album/190075802"
                   title="Deezer"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -87,7 +87,7 @@ const CardHausen = () => {
                 </a>
                 <a
                   style={styleIcons}
-                  href="https://music.apple.com/br/artist/bruno-cupertino/1507612184"
+                  href="https://music.apple.com/br/album/os-homens-de-pijamas/1542982643"
                   title="Apple Music"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -119,7 +119,7 @@ const CardHausen = () => {
               <ul style={{ width: "30%", marginTop: 20 }}>
                 <a
                   style={styleIcons}
-                  href="https://open.spotify.com/artist/2RwBpMqLtAGEbdWWPgQ65Y"
+                  href="https://open.spotify.com/album/3zIF66tClOWHHnBMkmCtPr"
                   title="Spotify"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -129,7 +129,7 @@ const CardHausen = () => {
                 </a>
                 <a
                   style={styleIcons}
-                  href="https://www.youtube.com/channel/UCloHOFnyYRQfbb8BLgz0LPg/featured"
+                  href="https://www.youtube.com/channel/UCWT4E1Of-TjgucLPZbe4FJg"
                   title="Youtube"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -139,7 +139,7 @@ const CardHausen = () => {
                 </a>
                 <a
                   style={styleIcons}
-                  href="https://www.deezer.com/en/artist/91111112"
+                  href="https://www.deezer.com/en/album/171399812"
                   title="Deezer"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -149,7 +149,7 @@ const CardHausen = () => {
                 </a>
                 <a
                   style={styleIcons}
-                  href="https://music.apple.com/br/artist/bruno-cupertino/1507612184"
+                  href="https://music.apple.com/br/album/in-concert/1530644204"
                   title="Apple Music"
                   target="_blank"
                   rel="noopener noreferrer"
