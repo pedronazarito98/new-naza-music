@@ -14,13 +14,10 @@ const Header = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto p-6 ml-4">
               <Nav.Link href="/"> Home </Nav.Link>
-              {/* <Nav.Link href="#/news">Notícias</Nav.Link> */}
               <Nav.Link href="#/servicos">Serviços</Nav.Link>
-              {/* <Nav.Link href="#/shows">Shows</Nav.Link> */}
               <Nav.Link href="#/sobre">Sobre</Nav.Link>
               <Nav.Link href="#/contato">Contato</Nav.Link>
               <NavDropdown title="Artistas" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#/Fonseec"> Fonseec </NavDropdown.Item>
                 <NavDropdown.Item href="#/George">
                   George Arrunateghi
                 </NavDropdown.Item>
@@ -28,25 +25,6 @@ const Header = () => {
                   Murilo Santiago
                 </NavDropdown.Item>
                 <NavDropdown.Item href="#/Tadeu">Tadeu Franco</NavDropdown.Item>
-                <NavDropdown.Item href="#/Alucinoise">
-                  Alucinoise
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#/Marcio-Nago">
-                  Marcio Nagô
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#/Bruno-Cupertino">
-                  Bruno Cupertino
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#/Hans">Hans Landim</NavDropdown.Item>
-                <NavDropdown.Item href="#/Lu-Toledo">
-                  Lu Toledo
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#/Maycon-Mendes">
-                  Maycon Mendes
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#/Hausen">
-                  Dr Hausen & Mr Guay
-                </NavDropdown.Item>
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>

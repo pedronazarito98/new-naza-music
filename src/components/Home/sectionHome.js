@@ -4,12 +4,12 @@ function sectionHome() {
   return (
     <div className="containerr">
       <div className="content">
-        <h1>NAZA <br/>
-        MÚSICA EM MOVIMENTO</h1>
-        
+        <h1>MÚSICA EM MOVIMENTO</h1>
+
         <p>
-          A META DA NAZA MUSIC É MAXIMIZAR O POTENCIAL DE CADA CLIENTE E
-          CONTRIBUIR PARA QUE O RETORNO DO TRABALHO SEJA LUCRATIVO!
+          A Naza Music atua com distribuição digital, gerenciamento de carreira
+          de artistas, assessoria de imprensa, marketing artístico e promoção de
+          shows.
         </p>
       </div>
     </div>

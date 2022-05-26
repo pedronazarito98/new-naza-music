@@ -16,7 +16,6 @@
 
   margin-top: 20px;
   height: 450px;
-  /* background-color: green; */
 }
 
 .content h1 {
@@ -35,7 +34,6 @@
   margin-top: 25px;
   width: 100%;
   max-width: 900px;
-  /* background-color: yellow; */
 }
 
 
@@ -47,7 +45,6 @@
   }
 
   .content h1 {
-    /* background-color: aqua; */
     width: 100%;
     max-width: 750px;
     text-align: center;
@@ -59,7 +56,6 @@
     max-width: 750px;
     height: 250px;
     color: #101010;
-
     font-size: 30px;
     padding: 5px;
     margin: 5px;

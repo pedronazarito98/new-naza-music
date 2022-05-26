@@ -1,7 +1,6 @@
 import React from "react";
 import "../css/news.scss";
 import "../css/secondaryCard.scss";
-import Img from "../components/Artistas/images/murilo2.png";
 
 function News(props) {
   const {

@@ -11,7 +11,7 @@ const PageHome = () => {
 
       <SectionHome />
 
-      <SectionCards />
+      {/* <SectionCards /> */}
 
       <SectionServicos />
     </>

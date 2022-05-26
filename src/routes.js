@@ -4,21 +4,15 @@ import { Route, Switch, HashRouter } from "react-router-dom";
 import Home from "./pages";
 import News from "./pages/news";
 import Artistas from "./pages/artistas";
-import Fonseec from "./pages/pageFonseec";
 import Contato from "./pages/contato";
 import Servicos from "./pages/servicos";
 import Shows from "./pages/shows";
 import Sobre from "./pages/sobre";
-import SectionGeorge from "./pages/pageGeorge";
+
+import SectionHans from "./pages/pageHans";
 import SectionTadeu from "./pages/pageTadeu";
 import SectionMurilo from "./pages/pageMurilo";
-import SectionAluci from "./pages/pageAlucinoise";
-import SectionNago from "./pages/pageNago";
-import SectionBruno from "./pages/pageBruno";
-import SectionHans from "./pages/pageHans";
-import SectionLuToledo from "./pages/pageLuToledo";
-import SectionMaycon from "./pages/pageMaycon";
-import SectionHausen from "./pages/pageHausen";
+import SectionGeorge from "./pages/pageGeorge";
 
 export default (props) => (
   <HashRouter>
@@ -27,20 +21,13 @@ export default (props) => (
       <Route exact path="/news" component={News} />
       <Route exact path="/shows" component={Shows} />
       <Route exact path="/artistas" component={Artistas} />
-      <Route exact path="/Fonseec" component={Fonseec} />
       <Route exact path="/contato" component={Contato} />
       <Route exact path="/servicos" component={Servicos} />
       <Route exact path="/sobre" component={Sobre} />
       <Route exact path="/George" component={SectionGeorge} />
       <Route exact path="/Tadeu" component={SectionTadeu} />
       <Route exact path="/Murilo" component={SectionMurilo} />
-      <Route exact path="/Alucinoise" component={SectionAluci} />
       <Route exact path="/Hans" component={SectionHans} />
-      <Route exact path="/Lu-Toledo" component={SectionLuToledo} />
-      <Route exact path="/Maycon-Mendes" component={SectionMaycon} />
-      <Route exact path="/Hausen" component={SectionHausen} />
-      <Route exact path="/Marcio-Nago" component={SectionNago} />
-      <Route exact path="/Bruno-Cupertino" component={SectionBruno} />
     </Switch>
   </HashRouter>
 );
