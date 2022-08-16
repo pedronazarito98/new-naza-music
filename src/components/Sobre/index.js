@@ -44,13 +44,6 @@ const SobreNos = () => {
               público e fomentar novas realizações.
             </p>
             <p>
-              Composta por profissionais com vasta experiência no mercado do
-              entretenimento, a Naza Music oferece também suporte técnico para
-              que o artista possa acompanhar a progressão de seu trabalho e
-              desenvolve oportunidades de negócios no sentido de ampliar o
-              público e fomentar novas realizações.
-            </p>
-            <p>
               Missão: contribuir no desenvolvimento da criatividade do artista e
               na ampliação de sua presença no mercado.
               <br />
