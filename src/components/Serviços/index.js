@@ -5,7 +5,7 @@ const Service = () => {
     <>
       <div className="container">
         <div className="item">
-          <img src="./01img_producao.png" alt="" />{" "}
+          <img loading='lazy' src="./01img_producao.png" alt="" />{" "}
         </div>
         <div className="item">
           <h4>Titulo</h4>

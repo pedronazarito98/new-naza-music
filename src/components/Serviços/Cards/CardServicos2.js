@@ -13,7 +13,7 @@ export default function CardServicos(props) {
             <p>{conteudo}</p>
           </div>
           <div className="img-card">
-            <img src={imgUrl} alt="" />
+            <img src={imgUrl} alt="" loading='lazy'/>
           </div>
         </div>
       </div>

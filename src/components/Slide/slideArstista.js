@@ -6,6 +6,7 @@ const SlideArtista = () => {
     <Carousel className="slideDimensao">
       <Carousel.Item>
         <img
+          loading="lazy"
           className="d-block w-100"
           src="./fonseecSlide1.png"
           alt="First Slide"
@@ -17,6 +18,7 @@ const SlideArtista = () => {
       </Carousel.Item>
       <Carousel.Item>
         <img
+          loading="lazy"
           className="d-block w-100"
           src="./fonseecSlide2.png"
           alt="Second Slide"
@@ -28,6 +30,7 @@ const SlideArtista = () => {
       </Carousel.Item>
       <Carousel.Item>
         <img
+          loading="lazy"
           className="d-block w-100"
           src="./fonseecSlide3.png"
           alt="Third Slide"

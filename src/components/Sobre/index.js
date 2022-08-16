@@ -17,33 +17,31 @@ const SobreNos = () => {
             bgImage={imgSobre}
             style={{ height: "600px" }}
             blur={{ min: 1, max: 2 }}
-          >
-            <div className="sliderText">
-              <h1>Sobre Naza </h1>
-            </div>
-          </Parallax>
+          />
         </div>
         <Row>
           <div className="text-Sobre">
             <h2 className="sub-title">
-              A Naza Music atua com distribuição digital, gerenciamento de
-              carreira de artistas, assessoria de imprensa, marketing artístico
-              e promoção de shows.
-            </h2>
-            <p>
               A Naza Music atua no mercado de entretenimento como gravadora,
               produtora de conteúdo e editora musical. Sua gama de serviços
               inclui distribuição digital, divulgação em rádio, TV e internet,
               assessoria de imprensa, marketing artístico e promoção de shows
               para artistas, cantores e instrumentistas, atuando em vários
               segmentos musicais.
+            </h2>
+            <p>
+              A empresa trabalha com o objetivo de acentuar o potencial criativo
+              e ampliar o alcance comercial de seus artistas, agindo com
+              transparência, agilidade, diplomacia e flexibilidade. Para isso,
+              utiliza também suas conexões nos meios de comunicação e com outras
+              agências, produtoras e promotoras.
             </p>
             <p>
-              A empresa trabalha com o objetivo de aumentar o potencial
-              artístico e comercial de seus artistas, agindo com transparência,
-              agilidade, diplomacia e flexibilidade, utilizando suas conexões
-              nos meios de comunicação e com outras agências, produtoras e
-              promotoras.
+              Composta por profissionais com vasta experiência no mercado do
+              entretenimento, a Naza Music oferece suporte técnico para que o
+              artista possa acompanhar a progressão comercial de seu trabalho e
+              desenvolve oportunidades de negócios no sentido de ampliar o
+              público e fomentar novas realizações.
             </p>
             <p>
               Composta por profissionais com vasta experiência no mercado do

@@ -8,7 +8,7 @@ const Header = () => {
       <Container fluid={true}>
         <Navbar bg="transparent" expand="md" className="shadow-sm">
           <Navbar.Brand href="/">
-            <img className="mx-auto" src="./Logomarca_NAZA1.png" alt="" />
+            <img loading='lazy' className="mx-auto" src="./Logomarca_NAZA1.png" alt="" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

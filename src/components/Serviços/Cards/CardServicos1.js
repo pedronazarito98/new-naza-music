@@ -9,7 +9,7 @@ export default function CardServicos(props) {
       <div className="CardContainer">
         <div className="card-style">
           <div className="img-card">
-            <img src={imgUrl} alt="" />
+            <img src={imgUrl} alt="" loading='lazy'/>
           </div>
           <div className="text-card">
             <h1>{title} </h1>

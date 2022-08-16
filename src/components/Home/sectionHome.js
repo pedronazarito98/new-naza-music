@@ -9,7 +9,7 @@ function sectionHome() {
         <p>
           A Naza Music atua com distribuição digital, gerenciamento de carreira
           de artistas, assessoria de imprensa, marketing artístico e promoção de
-          shows.
+          shows e eventos.
         </p>
       </div>
     </div>

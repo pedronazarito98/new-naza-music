@@ -6,7 +6,7 @@ function CardNews(props) {
     <>
       <div className="secondary-card">
         <div className="secondary-img">
-          <img src={imageNews} alt="" />
+          <img src={imageNews} alt="" loading='lazy'/>
         </div>
 
         <div className="secondary-conteudo">

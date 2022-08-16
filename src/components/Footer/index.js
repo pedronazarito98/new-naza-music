@@ -21,7 +21,7 @@ const Footer = () => {
           <Col sm className="sub-title-footer">
             <p>Explore a Naza Music</p>
             <ul className="list-unstyled">
-              <img
+              <img loading='lazy'
                 className="img-footer"
                 src="./Logomarca_NAZA1.png"
                 href="/"
@@ -39,7 +39,7 @@ const Footer = () => {
                   href="https://www.instagram.com/nazamusicgroup/"
                   target="_blank "
                 >
-                  <img src="./instagram.png" alt="" />
+                  <img loading='lazy' src="./instagram.png" alt="" />
                 </a>
               </li>
               <li>
@@ -48,7 +48,7 @@ const Footer = () => {
                   href="https://twitter.com/NazaMusicGroup"
                   target="_blank "
                 >
-                  <img src="./twitter.png" alt="" />
+                  <img loading='lazy' src="./twitter.png" alt="" />
                 </a>
               </li>
               <li>
@@ -57,7 +57,7 @@ const Footer = () => {
                   href="https://www.facebook.com/NazaMusicGroup"
                   target="_blank "
                 >
-                  <img src="./facebook.png" alt="" />
+                  <img loading='lazy' src="./facebook.png" alt="" />
                 </a>
               </li>
             </ul>

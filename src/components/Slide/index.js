@@ -9,6 +9,7 @@ const Slide = () => {
           <Carousel>
             <Carousel.Item>
               <img
+                loading="lazy"
                 className="d-block w-100"
                 src="./tadeuSlide2.png"
                 alt="Second Slide"
@@ -21,6 +22,7 @@ const Slide = () => {
 
             <Carousel.Item>
               <img
+                loading="lazy"
                 className="d-block w-100"
                 src="./murilo1.png"
                 alt="Third Slide"
