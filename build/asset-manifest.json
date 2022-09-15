@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c4e94099.chunk.css",
+    "main.js": "/static/js/main.25eeb2f1.chunk.js",
+    "main.js.map": "/static/js/main.25eeb2f1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.be3e2adc.js",
+    "runtime-main.js.map": "/static/js/runtime-main.be3e2adc.js.map",
+    "static/css/2.11829350.chunk.css": "/static/css/2.11829350.chunk.css",
+    "static/js/2.b40cbd44.chunk.js": "/static/js/2.b40cbd44.chunk.js",
+    "static/js/2.b40cbd44.chunk.js.map": "/static/js/2.b40cbd44.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c85d10f8c369fd1bfbb52c39ea5cbb43.js": "/precache-manifest.c85d10f8c369fd1bfbb52c39ea5cbb43.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.11829350.chunk.css.map": "/static/css/2.11829350.chunk.css.map",
+    "static/css/main.c4e94099.chunk.css.map": "/static/css/main.c4e94099.chunk.css.map",
+    "static/js/2.b40cbd44.chunk.js.LICENSE.txt": "/static/js/2.b40cbd44.chunk.js.LICENSE.txt",
+    "static/media/Album-George.jpeg": "/static/media/Album-George.444130cc.jpeg",
+    "static/media/Album-Murilo.jpeg": "/static/media/Album-Murilo.f2b671ca.jpeg",
+    "static/media/NomeAmor-Tadeu.jpeg": "/static/media/NomeAmor-Tadeu.4b022b8a.jpeg",
+    "static/media/PopRoca-Tadeu.jpeg": "/static/media/PopRoca-Tadeu.22b4228d.jpeg",
+    "static/media/StephanieJacovine-capa.png": "/static/media/StephanieJacovine-capa.1539c038.png",
+    "static/media/StephanieJacovine_cut.png": "/static/media/StephanieJacovine_cut.05a0b44f.png",
+    "static/media/Tadeu-franco.jpg": "/static/media/Tadeu-franco.a2ae0d15.jpg",
+    "static/media/TropicalRomance.jpeg": "/static/media/TropicalRomance.63697751.jpeg",
+    "static/media/assessoria.png": "/static/media/assessoria.f1166eab.png",
+    "static/media/desenvolvimento.png": "/static/media/desenvolvimento.e2871d2b.png",
+    "static/media/distribui.png": "/static/media/distribui.2a40238b.png",
+    "static/media/divulga.png": "/static/media/divulga.2edbac05.png",
+    "static/media/img-george.png": "/static/media/img-george.fe88e522.png",
+    "static/media/sobre.css": "/static/media/img-sobre.7948c677.jpg",
+    "static/media/marketing.png": "/static/media/marketing.5c66bdfc.png",
+    "static/media/murilo-card.jpg": "/static/media/murilo-card.44c3d6d6.jpg",
+    "static/media/murilo2.png": "/static/media/murilo2.b2839686.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.be3e2adc.js",
+    "static/css/2.11829350.chunk.css",
+    "static/js/2.b40cbd44.chunk.js",
+    "static/css/main.c4e94099.chunk.css",
+    "static/js/main.25eeb2f1.chunk.js"
+  ]
+}
