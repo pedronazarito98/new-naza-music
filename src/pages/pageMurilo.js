@@ -1,5 +1,6 @@
 import React from "react";
 import "../components/Artistas/Banner/banner.css";
+import "../components/Artistas/cardMusic.css";
 import { Image } from "react-bootstrap";
 import { Parallax } from "react-parallax";
 import MuriloImg from "../components/Artistas/images/murilo2.png";
@@ -89,14 +90,13 @@ function Banner() {
       <div className="releaseArtista ">
         <h1 style={{ marginBottom: "2%" }}> Murilo Santiago </h1>
         <p>
-          Advogado de profissão, Murilo iniciou-se na carreira musical há pouco
-          mais de uma década, escrevendo canções para outros intérpretes,
-          revelando-se, muito à vontade no samba, no baião e outros ritmos
-          brasileiros, além das várias modalidades da nossa canção popular e do
-          jazz. Essa versatilidade está evidenciada nos três discos lançados por
-          ele de forma independente: “Tempo pra Canção” (2007), “O Mundo É Cada
-          Um” (2014), e “Cada Um É o Mundo” (2018), nos quais comparece como
-          intérprete de suas canções.
+          Compositor e cantor, Murilo iniciou-se na carreira musical escrevendo
+          canções para outros intérpretes, revelando-se um autor muito à vontade
+          no samba, no baião e outros ritmos brasileiros, além da MPB e do jazz.
+          Essa versatilidade está evidenciada nos três discos lançados por ele
+          de forma independente: Tempo pra Canção (2007), O Mundo É Cada Um
+          (2014), e Cada Um É o Mundo (2018, todos com participação de renomados
+          músicos e intérpretes brasileiros.
         </p>
       </div>
       <div

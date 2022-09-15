@@ -3,6 +3,7 @@ import { Image } from "react-bootstrap";
 import { Parallax } from "react-parallax";
 import GeorgeImg from "../pages/img-george.png";
 import CardGeorge from "../components/Artistas/Cards/CardGeorge";
+import "../components/Artistas/cardMusic.css";
 
 const styleIcons = {
   display: "flex",
@@ -44,7 +45,7 @@ const SectionGeorge = () => {
                 roundedCircle
                 className="img-circle"
               />
-              <h1 style={styleTitle}> George </h1>
+              <h1 style={styleTitle}> George Arrunateghi </h1>
               <p style={{ color: "#fff", fontSize: "20px" }}> Cantor </p>
               <ul style={{ display: "flex", justifyContent: "center" }}>
                 <a
@@ -88,17 +89,18 @@ const SectionGeorge = () => {
           </div>
         </Parallax>
       </div>
-      <div className="releaseArtista ">
-        <h1 style={{ marginBottom: "2%" }}> George </h1>
+      <div className="releaseArtista">
+        <h1 style={{ marginBottom: "2%" }}> George Arrunateghi </h1>
         <p>
-          Voz privilegiada, intimidade com as palavras em cinco idiomas e
-          versatilidade no trato e na confluência dos diversos estilos musicais,
-          clássicos e populares: são estes alguns dos atributos naturais do
-          cantor e compositor George Arrunáteghi. Alia-se a isso uma sólida
-          formação musical, iniciada na infância com lições de piano e
-          continuada na adolescência com a descoberta do canto. Qualidades que
-          estão em evidência em seu discos “Let’s Fall in Love” (2015) e
-          “Tropical Romance”, lançado em 2019.
+          Dono de uma voz privilegiada de ‘baritenor’, George Arrunáteghi é um
+          cantor de pop jazz “cross cultural”, por conta de sua afinidade com
+          vários idiomas (italiano, francês, espanhol, português e inglês) e de
+          seu trânsito entre gêneros musicais brasileiros, europeus e
+          norte-americanos. O artista distingue-se pelo repertório seleto e por
+          sua excelência na interpretação, atributos que podem ser apreciados em
+          seus dois álbuns Let’s Fall in Love e Tropical Romance, além dos
+          singles How You Gonna See me Now, Never Gonna Let You Go, Renascer,
+          Porto Solidão, Ave Maria e Falando de Amor.
         </p>
       </div>
       <div

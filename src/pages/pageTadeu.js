@@ -4,6 +4,8 @@ import "../components/Artistas/Banner/banner.css";
 import { Parallax } from "react-parallax";
 import TadeuImg from "../components/Artistas/images/Tadeu-franco.jpg";
 import CardTadeu from "../components/Artistas/Cards/CardTadeu";
+import "../components/Artistas/cardMusic.css";
+
 const styles = {
   fontFamily: "sans-serif",
   textAlign: "center",
@@ -88,15 +90,13 @@ function BannerTadeu() {
         <h1 style={{ marginBottom: "2%" }}> Tadeu Franco </h1>
         <p>
           O talento de Tadeu Franco ganhou projeção nacional em 1982, quando
-          participou do disco “Anima”, de Milton Nascimento, gravando com ele e
-          Simone a música "Comunhão" (Milton e Fernando Brant). Em 1984 lançou o
-          primeiro disco "Cativante", com produção e direção de Milton
-          Nascimento e arranjos de Wagner Tiso e Túlio Mourão, trabalho que
-          apresenta um compositor e intérprete de estilo próprio e marcante.
-          Tadeu Franco gravou outros quatro discos: Alma Animal (1990),
-          “Orlando” (1995), “Em Nome do Amor” (2004) e “Pop Roça” (2008). Tadeu
-          volta aos palcos com o show “Comunhão”, o repertório reúne canções
-          favoritas, sucessos e inéditas.
+          participou do disco “Anima”, de Milton Nascimento, gravando a música
+          Comunhão (Milton e Fernando Brant). Em 1984 lançou o primeiro disco
+          Cativante, com produção e direção de Milton Nascimento e arranjos de
+          Wagner Tiso e Túlio Mourão, trabalho que apresenta um compositor e
+          intérprete de estilo próprio e marcante. Tadeu Franco gravou outros
+          quatro discos: Alma Animal (1990), Orlando (1995), Em Nome do Amor
+          (2004) e Pop Roça.
         </p>
       </div>
       <div

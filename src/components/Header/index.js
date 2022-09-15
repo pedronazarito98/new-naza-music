@@ -18,13 +18,14 @@ const Header = () => {
               <Nav.Link href="#/sobre">Sobre</Nav.Link>
               <Nav.Link href="#/contato">Contato</Nav.Link>
               <NavDropdown title="Artistas" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#/George">
+                <NavDropdown.Item href="#/George_Arrunateghi">
                   George Arrunateghi
                 </NavDropdown.Item>
                 <NavDropdown.Item href="#/Murilo">
                   Murilo Santiago
                 </NavDropdown.Item>
                 <NavDropdown.Item href="#/Tadeu">Tadeu Franco</NavDropdown.Item>
+                <NavDropdown.Item href="#/Stephanie_Jacovine">Stephanie Jacovine</NavDropdown.Item>
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>

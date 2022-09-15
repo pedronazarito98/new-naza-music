@@ -9,10 +9,10 @@ import Servicos from "./pages/servicos";
 import Shows from "./pages/shows";
 import Sobre from "./pages/sobre";
 
-import SectionHans from "./pages/pageHans";
 import SectionTadeu from "./pages/pageTadeu";
 import SectionMurilo from "./pages/pageMurilo";
 import SectionGeorge from "./pages/pageGeorge";
+import { PageStephanie } from "./pages/pageStephanie";
 
 export default (props) => (
   <HashRouter>
@@ -24,10 +24,10 @@ export default (props) => (
       <Route exact path="/contato" component={Contato} />
       <Route exact path="/servicos" component={Servicos} />
       <Route exact path="/sobre" component={Sobre} />
-      <Route exact path="/George" component={SectionGeorge} />
+      <Route exact path="/George_Arrunateghi" component={SectionGeorge} />
       <Route exact path="/Tadeu" component={SectionTadeu} />
       <Route exact path="/Murilo" component={SectionMurilo} />
-      <Route exact path="/Hans" component={SectionHans} />
+      <Route exact path="/Stephanie_Jacovine" component={PageStephanie} />
     </Switch>
   </HashRouter>
 );
